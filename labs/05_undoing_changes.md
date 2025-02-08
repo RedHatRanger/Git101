@@ -2,22 +2,22 @@
 
 Mistakes happen! In **Lab 5**, you'll learn how to revert commits, reset your working directory, and use `git checkout` to restore files.
 
----
+<br><br>
 
 ## Objectives
 
-I. Understand `git revert` for undoing public commits.
-II. Use `git reset` for local history manipulations.
-III. Restore files to previous versions.
+I. Understand `git revert` for undoing public commits \
+II. Use `git reset` for local history manipulations \
+III. Restore files to previous versions
 
----
+<br><br><br><br>
 
 ## I. Git Revert
 
 - `git revert <commit-hash>` creates a new commit that undoes the changes from the specified commit.
 - Useful for undoing changes in a shared repository **without rewriting history**.
 
----
+<br><br>
 
 ## II. Git Reset
 
@@ -37,16 +37,16 @@ III. Restore files to previous versions.
   ```
   Use caution with `--hard`, especially if others have pulled your commits.
 
----
+<br><br>
 
-## III. Checkout a File
+## III. Restore files to previous versions
 
 Revert an individual file to the last committed state:
 ```bash
 git checkout -- path/to/file.md
 ```
 
----
+<br><br>
 
 ## IV. Practice
 
@@ -54,13 +54,13 @@ git checkout -- path/to/file.md
 2. Make another commit, then try `git reset --soft HEAD~1`.
 3. Compare differences using `git diff`.
 
----
+<br><br>
 
 ## Summary
 
 You can now strategically undo or revert changes, whether in a shared environment or your local workspace.
 
----
+<br><br>
 
 **Next:** (For intermediate-level labs) Lab 6: Advanced Branching & Merging
 
