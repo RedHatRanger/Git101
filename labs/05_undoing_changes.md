@@ -1,9 +1,7 @@
 # Lab 5: Undoing Changes
 
 Mistakes happen! In **Lab 5**, you'll learn how to revert commits, reset your working directory, and use `git checkout` to restore files.
-
 <br><br>
-
 ## Objectives
 
 I. Understand `git revert` for undoing public commits \
