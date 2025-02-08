@@ -60,6 +60,6 @@ Rebasing can clean up history and simplify your commit timeline, especially befo
 
 <br><br>
 
-**Next:** Lab 7: Collaborative Workflows
+**Next:** [Lab 7: Collaborative Workflows](07_collaborative_workflows.md)
 
 
