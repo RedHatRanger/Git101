@@ -70,24 +70,24 @@ git config --global user.email "you@example.com"
 
 
 
-5. Initialize Your First Repository
-Create a new folder for your project:
-bash
-Copy
-Edit
+III. Initialize Your First Repository
+1. Create a new folder for your project:
+```bash
 mkdir my-first-git-repo
 cd my-first-git-repo
-Initialize the Git repository:
-bash
-Copy
-Edit
+```
+
+- Initialize the Git repository:
+```bash
 git init
-Create a simple file:
-bash
-Copy
-Edit
+```
+
+- Create a simple file:
+```bash
 echo "# My First Git Repo" > README.md
-Stage and commit:
+````
+
+- Stage and commit:
 bash
 Copy
 Edit
