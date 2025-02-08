@@ -73,4 +73,4 @@ git checkout -- <filename>
 ## Summary
 You now understand how to make, stage, and commit changes, plus inspect and discard uncommitted changes. These operations form the core of day-to-day Git usage.
 
-Next: Lab 3: Branching Essentials
+Next: [Lab 3: Branching Essentials](03_branching_essentials.md)
