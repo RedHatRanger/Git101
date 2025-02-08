@@ -8,8 +8,7 @@ I. Understand `git revert` for undoing public commits \
 II. Use `git reset` for local history manipulations \
 III. Restore files to previous versions
 
-<br><br><br><br>
-
+<br><br>
 ## I. Git Revert
 
 - `git revert <commit-hash>` creates a new commit that undoes the changes from the specified commit.
