@@ -1,2 +1,8 @@
-# Git101
-Git101 is your beginner-friendly guide to mastering Git and GitHub. Learn version control fundamentals through clear explanations, practical exercises, and real-world examples. Empower your coding journey and collaboration skills with this comprehensive resource.
+# Git101 Labs
+
+Welcome to the Git101 practice labs! Here’s how the repository is organized:
+
+- **/labs**: Contains all the practice labs. Each lab folder is numbered and named according to its topic.
+- **/solutions** (optional): Contains solutions to the labs (if provided).
+
+Start with [01-introduction](labs/01-introduction/README.md) to begin your journey!
