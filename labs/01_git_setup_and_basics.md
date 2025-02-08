@@ -18,7 +18,7 @@ III. Initialize a new Git repository. \
 - A computer running Windows, macOS, or a Linux distribution.
 - Basic familiarity with your operating system's command line or terminal.
 
----
+<br><br><br><br>
 
 ## I. Install Git
 
