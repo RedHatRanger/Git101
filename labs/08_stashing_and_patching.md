@@ -49,6 +49,6 @@ Stashing is invaluable for quick context switches, and patches let you share spe
 
 <br><br>
 
-**Next:** Lab 9: Git Log, Diff, and History
+**Next:** [Lab 9: Git Log, Diff, and History](09_git_log_diff_and_history.md)
 
 
