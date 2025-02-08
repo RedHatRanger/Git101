@@ -6,14 +6,14 @@ Branches let you develop features and fixes independently from the main codebase
 
 ## Objectives
 
-1. Create and switch between branches.
-2. Understand best practices for branch naming.
-3. Merge simple changes back into the main branch.
-4. Resolve basic merge conflicts.
+I. Create and switch between branches \
+II. Understand best practices for branch naming \
+III. Merge simple changes back into the main branch \
+IV. Resolve basic merge conflicts
 
 ---
 
-## 1. Creating a Branch
+## I. Creating a Branch
 
 1. View current branches:
    ```bash
@@ -67,7 +67,7 @@ git log --oneline --graph
 
 ---
 
-## 4. Handling Simple Conflicts
+## IV. Handling Simple Conflicts
 
 If you have conflicting changes, Git will show conflict markers in your files.
 
@@ -85,6 +85,6 @@ Branching allows parallel development without disrupting the main codebase. In t
 
 ---
 
-**Next:** Lab 4: Working with Remotes
+**Next:** Lab IV: Working with Remotes
 
 
