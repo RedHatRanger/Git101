@@ -62,7 +62,7 @@ git --version
 ```
 - You should see a version number, e.g. git version 2.x.x.
 
-II. Configure Git Username and Email (IMPORTANT):
+## II. Configure Git Username and Email (IMPORTANT):
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
@@ -70,36 +70,42 @@ git config --global user.email "you@example.com"
 
 
 
-III. Initialize Your First Repository
+## III. Initialize Your First Repository
 1. Create a new folder for your project:
 ```bash
 mkdir my-first-git-repo
 cd my-first-git-repo
 ```
 
-- Initialize the Git repository:
+2. Initialize the Git repository:
 ```bash
 git init
 ```
 
-- Create a simple file:
+3. Create a simple file:
 ```bash
 echo "# My First Git Repo" > README.md
 ````
 
-- Stage and commit:
-bash
-Copy
-Edit
-git add README.md
+4. Stage and commit:
+```bash
+git add .
 git commit -m "Initial commit"
-6. Verify Your Commit
-bash
-Copy
-Edit
-git log
-You should see your commit message, author, and date. Congratulations—you've made your first commit!
+```
 
-Next Steps
+6. Verify Your Commit
+```bash
+git log
+```
+OR
+```
+git log --oneline
+```
+
+### You should see your commit message, author, and date. Congratulations—you've made your first commit!
+
+<br><br>
+
+### Next Steps
 Move on to Lab 2: Basic Workflows to learn about adding, committing, viewing logs, and the staging area in more detail.
 
