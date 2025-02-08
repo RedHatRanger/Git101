@@ -55,5 +55,5 @@ git checkout -- path/to/file.md
 You can now strategically undo or revert changes, whether in a shared environment or your local workspace.
 
 <br><br>
-**Next:** (For intermediate-level labs) Lab 6: Advanced Branching & Merging
+**Next:** (For intermediate-level labs) [Lab 6: Advanced Branching & Merging](06_advanced_branching_and_merging.md)
 
