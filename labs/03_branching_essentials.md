@@ -1,6 +1,6 @@
 # Lab 3: Branching Essentials
 
-Branches let you develop features and fixes independently from the main codebase. In **Lab 3**, we’ll cover creating branches, switching between them, and merging simple changes.
+Branching lets you develop features and fixes independently from the main codebase. In **Lab 3**, we’ll cover creating branches, switching between them, and merging simple changes.
 
 
 ## Objectives
