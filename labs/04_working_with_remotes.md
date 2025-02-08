@@ -9,7 +9,7 @@ In **Lab 4**, you'll learn how to connect local repositories to remote servers (
   I. Add a remote to your local repository \
  II. Push local changes to a remote repository \
 III. Pull changes from the remote to your local machine \
- IV. Understand basic remote-tracking branches \
+ IV. Understand basic remote-tracking branches 
 
 <br><br><br><br>
 
