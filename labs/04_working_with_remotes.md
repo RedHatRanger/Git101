@@ -64,5 +64,5 @@ git push -u origin feature/new-ui
 You can now collaborate via GitHub (or other hosting platforms), ensuring all team members stay in sync. Remote repositories form the backbone of distributed version control.
 
 <br><br>
-**Next:** Lab 5: Undoing Changes
+**Next:** [Lab 5: Undoing Changes](05_undoing_changes.md)
 
