@@ -58,5 +58,5 @@ git push -u origin feature/improve-docs
 Collaborative workflows rely on well-defined branching strategies, clear communication, and respectful code review processes. Forking and pull requests streamline open-source and team collaboration.
 
 <br><br>
-**Next:** Lab 8: Stashing and Patching
+**Next:** [Lab 8: Stashing and Patching](08_stashing_and_patching.md)
 
