@@ -25,6 +25,7 @@ III. Explore your project commit history using `git log` \
   cd example-basic
   ```
 
+<br><br>
 ## II. Add and commit changes effectively
 1. Create or edit a file (e.g., notes.md):
 ```bash
@@ -50,11 +51,13 @@ git add .
 git commit -m "Add notes on Git"
 ```
 
+<br><br>
 ## III. Explore your project commit history:
 ```bash
 git log --oneline
 ```
 
+<br><br>
 ## IV. Discard uncommitted changes
 >The staging area (also called the index) is where Git tracks changes you intend to include in the next commit.
 >Practice adding changes to multiple files, then running git status to see which are staged vs. unstaged.
