@@ -53,6 +53,6 @@ Combine with author or date filters to narrow results.
 Mastering `git log` and `git diff` ensures you can quickly trace who changed what and when, crucial for debugging and team coordination.
 
 <br><br>
-**Next:** Lab 10: Custom Configurations
+**Next:** [Lab 10: Custom Configurations](10_custom_configurations.md)
 
 
