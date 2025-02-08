@@ -18,7 +18,6 @@ III. Restore files to previous versions
 - Useful for undoing changes in a shared repository **without rewriting history**.
 
 <br><br>
-
 ## II. Git Reset
 
 - **Soft reset** (keeps changes staged):
@@ -38,7 +37,6 @@ III. Restore files to previous versions
   Use caution with `--hard`, especially if others have pulled your commits.
 
 <br><br>
-
 ## III. Restore files to previous versions
 
 Revert an individual file to the last committed state:
@@ -47,7 +45,6 @@ git checkout -- path/to/file.md
 ```
 
 <br><br>
-
 ## IV. Practice
 
 1. Make a commit, then try reverting it with `git revert`.
@@ -61,6 +58,5 @@ git checkout -- path/to/file.md
 You can now strategically undo or revert changes, whether in a shared environment or your local workspace.
 
 <br><br>
-
 **Next:** (For intermediate-level labs) Lab 6: Advanced Branching & Merging
 
