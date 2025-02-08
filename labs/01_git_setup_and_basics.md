@@ -82,9 +82,10 @@ cd my-first-git-repo
 git init
 ```
 
+## IV. Create Your First Commit
 3. Create a simple file:
 ```bash
-echo "# My First Git Repo" > README.md
+echo "Hello World" > README.md
 ````
 
 4. Stage and commit:
@@ -107,5 +108,5 @@ git log --oneline
 <br><br>
 
 ### Next Steps
-Move on to Lab 2: Basic Workflows to learn about adding, committing, viewing logs, and the staging area in more detail.
+Move on to [Lab 2: Basic Workflows](02_basic_workflows.md) to learn about adding, committing, viewing logs, and the staging area in more detail.
 
