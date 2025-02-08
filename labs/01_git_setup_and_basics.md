@@ -6,10 +6,10 @@ Welcome to **Lab 1**, where you'll learn how to install Git on Windows, Mac, and
 
 ## Objectives
 
-1. Install Git on your system (Windows, Mac, or Linux).
-2. Configure your Git username and email.
-3. Initialize a new Git repository.
-4. Create your first commit.
+  I. Install Git on your system (Windows, Mac, or Linux).
+ II. Configure your Git username and email.
+III. Initialize a new Git repository.
+ IV. Create your first commit.
 
 ---
 
@@ -20,7 +20,7 @@ Welcome to **Lab 1**, where you'll learn how to install Git on Windows, Mac, and
 
 ---
 
-## 1. Install Git
+## I. Install Git
 
 ### Windows
 - **Option A:** Use [Git for Windows](https://gitforwindows.org/). Download and run the installer.  
@@ -62,11 +62,13 @@ git --version
 ```
 - You should see a version number, e.g. git version 2.x.x.
 
-4. Configure Git:
+II. Configure Git Username and Email (IMPORTANT):
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
+
+
 
 5. Initialize Your First Repository
 Create a new folder for your project:
