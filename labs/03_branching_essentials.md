@@ -2,7 +2,6 @@
 
 Branches let you develop features and fixes independently from the main codebase. In **Lab 3**, we’ll cover creating branches, switching between them, and merging simple changes.
 
-<br><br>
 
 ## Objectives
 
