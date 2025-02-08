@@ -10,7 +10,7 @@ Branching lets you develop features and fixes independently from the main codeba
 III. Merge simple changes back into the main branch \
  IV. Resolve basic merge conflicts
 
-<br><br><br<br>
+<br><br><br><br>
 
 ## I. Creating a Branch
 
