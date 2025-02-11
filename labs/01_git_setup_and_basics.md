@@ -101,19 +101,24 @@ git init
 ```
 
 ## IV. Create Your First Commit
-3. Create a simple file or files:
+1. Create a simple file or files:
 ```bash
 echo "This is a beautiful story" > story1.txt
 echo "A Lion lay asleep in the forest" > lion-and-mouse.txt
 ````
 
-4. Stage and commit:
+2. Ignore the `story1.txt` file from future all commits:
+```
+echo "story1.txt" > .gitignore
+```
+
+3. Stage and commit:
 ```bash
 git add .
 git commit -m "Added the lion and mouse story"
 ```
 
-6. Verify Your Commit
+4. Verify Your Commit
 ```bash
 git log
 ```
