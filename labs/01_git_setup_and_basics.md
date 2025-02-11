@@ -110,7 +110,7 @@ echo "A Lion lay asleep in the forest" > lion-and-mouse.txt
 4. Stage and commit:
 ```bash
 git add .
-git commit -m "Initial commit"
+git commit -m "Added the lion and mouse story"
 ```
 
 6. Verify Your Commit
