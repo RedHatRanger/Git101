@@ -81,8 +81,8 @@ git config --global user.email "you@example.com"
 ## III. Initialize Your First Repository
 1. Create a new folder for your project:
 ```bash
-mkdir Projects
-cd Projects
+mkdir -p Projects/story-blog
+cd Projects/story-blog
 ```
 
 2. Initialize the Git repository:
