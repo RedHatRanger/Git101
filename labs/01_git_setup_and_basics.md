@@ -97,6 +97,7 @@ git init
 3. Create a simple file:
 ```bash
 echo "This is a beautiful story" > story1.txt
+echo "A Lion lay asleep in the forest" > lion-and-mouse.txt
 ````
 
 4. Stage and commit:
