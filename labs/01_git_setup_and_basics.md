@@ -1,6 +1,6 @@
 # What is Git?
 ![image](https://github.com/user-attachments/assets/7c9e2ab2-33cf-4155-8ecb-1377e791ea54)
-
+(photo by: kodekloud.com)
 
 
 # Lab 1: Git Setup & Basics
