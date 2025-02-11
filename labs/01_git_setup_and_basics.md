@@ -94,7 +94,7 @@ git init
 ```
 
 ## IV. Create Your First Commit
-3. Create a simple file:
+3. Create a simple file or files:
 ```bash
 echo "This is a beautiful story" > story1.txt
 echo "A Lion lay asleep in the forest" > lion-and-mouse.txt
