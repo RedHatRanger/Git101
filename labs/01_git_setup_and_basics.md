@@ -123,13 +123,17 @@ git add .
 git commit -m "Added the lion and mouse story"
 ```
 
-4. Verify Your Commit
+4. Verify Your Commit:
 ```bash
 git log
 ```
 OR
 ```
 git log --oneline
+```
+OR
+```
+git log --name-only
 ```
 OR
 ```
