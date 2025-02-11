@@ -50,8 +50,8 @@ brew install git
 ### Linux
 - For Debian/Ubuntu-based systems:
 ```bash
-sudo apt-get update
-sudo apt-get install git
+sudo apt update && sudo apt upgrade
+sudo apt install git git-man
 ```
 
 - For Fedora/CentOS-based systems:
