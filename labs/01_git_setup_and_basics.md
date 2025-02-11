@@ -75,8 +75,15 @@ git --version
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
-# To validate your entries:
+
+# To validate your entries (optional):
 git config --global --list
+
+# If need to edit your git config (optional):
+git config --global --edit
+
+# If you need to unset something in your git config (optional):
+git config --global --unset user.name
 ```
 
 
