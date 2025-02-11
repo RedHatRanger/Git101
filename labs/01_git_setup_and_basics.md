@@ -74,6 +74,9 @@ git --version
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
+
+# To validate your entries:
+git config --global --list
 ```
 
 
