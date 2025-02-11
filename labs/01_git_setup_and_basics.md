@@ -1,4 +1,4 @@
-**"An investment in Knowledge pays the best interest" -Ben Franklin**
+***"An investment in Knowledge pays the best interest" -Ben Franklin***
 
 
 # What is Git?
