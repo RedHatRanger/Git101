@@ -1,12 +1,9 @@
 # What is Git?
 ![image](https://github.com/user-attachments/assets/7c9e2ab2-33cf-4155-8ecb-1377e791ea54) ![image](https://github.com/user-attachments/assets/f4717836-061d-4094-9ead-a620b2c58b58) ![image](https://github.com/user-attachments/assets/63ca5a7e-825e-402f-a9dc-6cd6fdb8a50e) ![image](https://github.com/user-attachments/assets/588b184e-77e2-4c3a-ae05-6efb8695ae69)
 
-
-
-
 (photos by: kodekloud.com)
 
-
+<br><br><br><br>
 # Lab 1: Git Setup & Basics
 
 Welcome to **Lab 1**, where you'll learn how to install Git on Windows, Mac, and Linux, configure your global settings, and initialize your first repository.
