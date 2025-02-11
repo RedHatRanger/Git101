@@ -110,6 +110,10 @@ OR
 ```
 git log --oneline
 ```
+OR
+```
+git status
+```
 
 ### You should see your commit message, author, and date. Congratulations—you've made your first commit!
 
