@@ -27,13 +27,49 @@ git log --name-only
 # You should see lion-and-mouse.txt
 
 
+
+
+# Let's prepare the lab for the lion-and-mouse.txt:
+cat << EOF > lion-and-mouse.txt
+--------------------------------------------
+      THE LIOON AND THE MOUSE
+--------------------------------------------
+
+A Lion lay asleep in the forest, his great head resting on his paws.
+
+A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose.
+
+Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her.
+
+"Spare me!" begged the poor Mouse. "Please let me go and some day I will surely repay you."
+
+The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.
+
+Some days later, while stalking his prey in the forest, the Lion was caught in the toils of a hunter's net.
+
+Unable to free himself, he filled the forest with his angry roaring.
+
+The Mouse knew the voice and quickly found the Lion struggling in the net.
+
+Running to one of the great ropes that bound him, she gnawed it until it parted, and soon the Lion was free.
+
+"You laughed when I said I would repay you," said the Mouse. "Now you see that even a Mouse can help a Lion."
+EOF
+
+
+
+
 #Let's create and switch to a new branch "story/frogs-and-ox":
 git checkout -b story/frogs-and-ox
+
+
 
 
 # Use git log to see where the HEAD is pointing now:
 git log
 # You can see the HEAD is now pointing to the new branch story/frogs-and-ox
+
+
 
 
 # Let's add the frogs-and-ox.txt:
@@ -54,9 +90,19 @@ The old Frog soon missed the little one and asked his brothers and sisters what 
 EOF
 
 
+
+
 # Uh oh...Max calls and interrupts the development...we need to stage and commit the incomplete story to the master branch:
 git add frogs-and-ox.txt
 git commit -m "Add incomplete frogs-and-ox story"
+
+
+
+
+# Now, let's switch to the master branch:
+git checkout master
+
+
 
 
 
