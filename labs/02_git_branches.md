@@ -155,8 +155,7 @@ git branch feature/cart
 git branch feature/checkout
 git branch feature/signout
 git branch feature/signup
-
-
+git checkout feature/signout; git log --graph --decorate
 ```
 
 ## I. Creating a Branch
