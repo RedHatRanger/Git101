@@ -95,7 +95,7 @@ Branching allows parallel development without disrupting the main codebase. In t
 **Next:** Lab 3: Working with Remotes
 
 ```bash
-# In case you missed Lab 1, here are the commands we ran to setup our lab (Copy and paste to your terminal):
+# In case you missed any of the previous labs, here are the commands we ran to setup it all up (Copy and paste to your terminal):
 # Lab 1:
 git config --global user.name "RedHatRanger"
 git config --global user.email "RedHatRanger@example.com"
