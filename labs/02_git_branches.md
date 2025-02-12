@@ -143,10 +143,18 @@ But the little Frogs all declared that the monster was much, much bigger and the
 EOF
 
 
-
 # Commit the new changes:
 git add frogs-and-ox.txt; git commit -m "Completed frogs-and-ox story"
 
+
+
+# Next one:
+cd ../website
+git init
+git branch feature/cart
+git branch feature/checkout
+git branch feature/signout
+git branch feature/signup
 
 
 ```
