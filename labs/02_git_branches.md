@@ -23,9 +23,6 @@
 
 ```
 cd Projects/story-blog
-git log --name-only
-# You should see lion-and-mouse.txt
-
 
 
 
@@ -56,6 +53,11 @@ Running to one of the great ropes that bound him, she gnawed it until it parted,
 "You laughed when I said I would repay you," said the Mouse. "Now you see that even a Mouse can help a Lion."
 EOF
 
+
+
+
+git log --name-only
+# You should see lion-and-mouse.txt
 
 
 
