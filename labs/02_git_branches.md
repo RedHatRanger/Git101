@@ -22,6 +22,7 @@
 <br><br><br><br>
 
 ```
+mkdir -p Projects/website
 cd Projects/story-blog
 
 
@@ -53,6 +54,11 @@ Running to one of the great ropes that bound him, she gnawed it until it parted,
 "You laughed when I said I would repay you," said the Mouse. "Now you see that even a Mouse can help a Lion."
 EOF
 
+
+# Setup the main.html file:
+cat << EOF > ../website/main.html 
+main-placeholder
+EOF
 
 
 
