@@ -100,4 +100,4 @@ Branching allows parallel development without disrupting the main codebase. In t
 git config --global user.name "RedHatRanger"
 git config --global user.email "RedHatRanger@example.com"
 
-
+```
