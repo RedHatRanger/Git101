@@ -113,6 +113,35 @@ git add lion-and-mouse.txt; git commit -m "Fix typo in story title"
 # Switch back to the /frogs-and-ox branch
 git checkout story/frogs-and-ox
 
+# Sarah has now finished her incomplete story:
+cat << EOF > frogs-and-ox.txt
+--------------------------------------------
+      THE FROGS AND THE OX
+--------------------------------------------
+
+An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud.
+
+The old Frog soon missed the little one and asked his brothers and sisters what had become of him.
+
+"A great big monster," said one of them, "stepped on little brother with one of his huge feet!"
+
+"Big, was he!" said the old Frog, puffing herself up. "Was he as big as this?"
+
+"Oh, much bigger!" they cried.
+
+The Frog puffed up still more.
+
+"He could not have been bigger than this," she said.
+
+But the little Frogs all declared that the monster was much, much bigger and the old Frog kept puffing herself out more and more until, all at once, she burst.
+EOF
+
+
+
+# Commit the new changes:
+git add frogs-and-ox.txt; git commit -m "Completed frogs-and-ox story"
+
+
 
 ```
 
