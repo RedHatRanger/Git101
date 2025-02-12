@@ -26,12 +26,15 @@ cd Projects/story-blog
 git log --name-only
 # You should see lion-and-mouse.txt
 
+
 #Let's create and switch to a new branch "story/frogs-and-ox":
 git checkout -b story/frogs-and-ox
+
 
 # Use git log to see where the HEAD is pointing now:
 git log
 # You can see the HEAD is now pointing to the new branch story/frogs-and-ox
+
 
 # Let's add the frogs-and-ox.txt:
 cat << EOF > frogs-and-ox.txt
@@ -49,6 +52,12 @@ The old Frog soon missed the little one and asked his brothers and sisters what 
 
 "Oh, much ...."
 EOF
+
+
+# Uh oh...Max calls and interrupts the development...we need to stage and commit the incomplete story to the master branch:
+git add frogs-and-ox.txt
+git commit -m "Add incomplete frogs-and-ox story"
+
 
 
 ```
