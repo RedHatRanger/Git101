@@ -7,12 +7,8 @@
 
 
 
-
-
-
-
-
-
+### What is a Git Branch?
+- A ***Git branch*** is a movable pointer to a specific commit
 
 
 
