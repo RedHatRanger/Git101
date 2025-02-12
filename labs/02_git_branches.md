@@ -3,7 +3,8 @@
 
 
 # Lab 2: Git Branches
-![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc) ![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00)
+![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc) ![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00) ![image](https://github.com/user-attachments/assets/e8eb3868-d91f-48b6-84dc-2c0d86694390)
+
 
 
 
