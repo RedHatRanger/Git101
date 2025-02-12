@@ -1,6 +1,7 @@
 # Lab 2: Git Branches
 
 "Talk is cheap. Show me the code." — Linus Torvalds
+<br><br>
 
 ![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc) ![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00)
 
