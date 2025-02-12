@@ -208,5 +208,5 @@ These skills form the core of day-to-day Git usage. You’re now ready to explor
 <br><br>
 
 ### Next Steps
-Move on to [Lab 2: Basic Workflows](02_basic_workflows.md) to learn about adding, committing, viewing logs, and the staging area in more detail.
+Move on to [Lab 2: Git Branches](02_git_branches.md) to learn about branches, merging, and collaboration with teams
 
