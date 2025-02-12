@@ -104,8 +104,11 @@ git commit -m "Add incomplete frogs-and-ox story"
 # Now, let's switch to the master branch:
 git checkout master
 
+# Let's fix the misspelled "LIOON" in the lion-and-mouse.txt:
+sed -i 's/LIOON/LION/g' lion-and-mouse.txt
 
-
+# Commit the changes to the master:
+git add lion-and-mouse.txt; git commit -m "Fix typo in story title"
 
 
 ```
