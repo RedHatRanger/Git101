@@ -110,6 +110,9 @@ sed -i 's/LIOON/LION/g' lion-and-mouse.txt
 # Commit the changes to the master:
 git add lion-and-mouse.txt; git commit -m "Fix typo in story title"
 
+# Switch back to the /frogs-and-ox branch
+git checkout story/frogs-and-ox
+
 
 ```
 
