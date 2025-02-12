@@ -96,7 +96,7 @@ Branching allows parallel development without disrupting the main codebase. In t
 
 
 # In case you missed any of the previous labs, here are the commands we ran to setup it all up:
-1. [Install Git](https://github.com/RedHatRanger/Git101/blob/main/labs/01_git_setup_and_basic_workflows.md#i-install-git)
+1. [Install Git](https://github.com/RedHatRanger/Git101/blob/main/labs/01_git_setup_and_basic_workflows.md#i-install-git) (if you haven't already)
 2. Copy and paste the rest below to your terminal:
 
 ```bash
