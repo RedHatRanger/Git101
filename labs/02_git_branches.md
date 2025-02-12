@@ -14,12 +14,44 @@
 
 ## Objectives
 
-1. Create and switch between branches \
-2. Understand best practices for branch naming \
-3. Merge simple changes back into the main branch \
+1. Create and switch between branches
+2. Understand best practices for branch naming
+3. Merge simple changes back into the main branch
 4. Resolve basic merge conflicts
 
 <br><br><br><br>
+
+```
+cd Projects/story-blog
+git log --name-only
+# You should see lion-and-mouse.txt
+
+#Let's create and switch to a new branch "story/frogs-and-ox":
+git checkout -b story/frogs-and-ox
+
+# Use git log to see where the HEAD is pointing now:
+git log
+# You can see the HEAD is now pointing to the new branch story/frogs-and-ox
+
+# Let's add the frogs-and-ox.txt:
+cat << EOF > frogs-and-ox.txt
+--------------------------------------------
+      THE FROGS AND THE OX
+--------------------------------------------
+
+An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud.
+
+The old Frog soon missed the little one and asked his brothers and sisters what had become of him.
+
+"A great big monster," said one of them, "stepped on little brother with one of his huge feet!"
+
+"Big, was he!" said the old Frog, puffing herself up. "Was he as big as this?"
+
+"Oh, much ...."
+EOF
+
+
+```
 
 ## I. Creating a Branch
 
