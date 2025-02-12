@@ -3,7 +3,8 @@
 
 
 # Lab 2: Git Branches
-![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc) ![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00) ![image](https://github.com/user-attachments/assets/e8eb3868-d91f-48b6-84dc-2c0d86694390) ![image](https://github.com/user-attachments/assets/13124f19-b9fa-4330-a545-7869ae9f43fb) ![image](https://github.com/user-attachments/assets/15409879-112b-4aa3-916e-9ec9357f7ecb)
+![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc) ![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00) ![image](https://github.com/user-attachments/assets/e8eb3868-d91f-48b6-84dc-2c0d86694390) ![image](https://github.com/user-attachments/assets/13124f19-b9fa-4330-a545-7869ae9f43fb) ![image](https://github.com/user-attachments/assets/15409879-112b-4aa3-916e-9ec9357f7ecb) ![image](https://github.com/user-attachments/assets/fca6afe7-a819-4980-a4eb-53d8d022ac1b)
+
 
 
 
