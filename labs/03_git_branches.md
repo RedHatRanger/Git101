@@ -1,4 +1,7 @@
-# Lab 3: Branching Essentials
+# Lab 2: Git Branches
+
+
+
 
 Branching lets you develop features and fixes independently from the main codebase. In **Lab 3**, we’ll cover creating branches, switching between them, and merging simple changes.
 
