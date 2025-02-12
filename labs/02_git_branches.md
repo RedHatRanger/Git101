@@ -9,20 +9,15 @@
 
 <br><br><br><br>
 ### What is a Git Branch?
-- A ***Git branch*** is a movable pointer to a specific commit
-
-
-
-
-Branching lets you develop features and fixes independently from the main codebase. In **Lab 3**, we’ll cover creating branches, switching between them, and merging simple changes.
+- A ***Git branch*** is a movable pointer to a specific commit, i.e. it allows you develop features and fixes independently from the main codebase (master branch).
 
 
 ## Objectives
 
-  I. Create and switch between branches \
- II. Understand best practices for branch naming \
-III. Merge simple changes back into the main branch \
- IV. Resolve basic merge conflicts
+1. Create and switch between branches \
+2. Understand best practices for branch naming \
+3. Merge simple changes back into the main branch \
+4. Resolve basic merge conflicts
 
 <br><br><br><br>
 
