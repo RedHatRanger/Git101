@@ -31,10 +31,11 @@ III. Pull changes from the remote to your local machine \
 <br><br><br><br>
 
 ## I. Adding a Remote Repo
-- If you created a repository on GitHub (or similar), copy its URL.
+- Create a repository on GitHub (or similar), called `story-blog`.
+- Click `Code` and copy the URL `http://.../.../story-blog.git`.
 - In your local repo:
   ```bash
-  git remote add origin https://github.com/<your-username>/<repo-name>.git
+  git remote add origin https://github.com/<your-username>/story-blog.git
   ```
 
 Verify:
@@ -44,9 +45,12 @@ git remote -v
 
 <br><br>
 ## II. Pushing Changes
-1. Push your local `main` branch to the remote:
+1. Push your local `master` branch to the remote:
 ```bash
-git push -u origin main
+git push -u origin master
+
+# Enter the Username and Password if prompted
+# Tip: to avoid having to type in the credentials each time, consider adding your local machine's SSH keys to GitHub or Gitea
 ```
 
 2. After the first push, you can simply use:
