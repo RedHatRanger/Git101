@@ -7,16 +7,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 In **Lab 4**, you'll learn how to connect local repositories to remote servers (like GitHub, GitLab, or Bitbucket), push and pull changes, and collaborate more effectively.
 
 ---
