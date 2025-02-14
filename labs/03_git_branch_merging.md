@@ -6,6 +6,48 @@
 ![image](https://github.com/user-attachments/assets/96f8b44f-7075-47b9-a7ac-386407474fd9) ![image](https://github.com/user-attachments/assets/073d11f1-f7d7-4c5b-87aa-acc8de59a32c) ![image](https://github.com/user-attachments/assets/eb99e756-4957-4df7-8118-b4c72041ceed) ![image](https://github.com/user-attachments/assets/b9e58837-9866-4150-8db0-aef1a08b64b9) ![image](https://github.com/user-attachments/assets/42a359c2-14a2-4895-80aa-7473f4366fd7) ![image](https://github.com/user-attachments/assets/ef80e53d-b661-4295-9518-7961cba71d47) 
 
 
+
+
+
+
+
+
+
+
+
+## Summary
+Branching allows parallel development without disrupting the main codebase. In the next labs, we’ll dig into more advanced branching and merging strategies.
+
+<br><br>
+
+**Next:** [Lab 3: Merging Branches](03_git_branch_merging.md)
+
+
+
+<br><br><br><br>
+### In case you missed any of the previous labs, here are the commands we ran to setup it all up:
+1. [Install Git](https://github.com/RedHatRanger/Git101/blob/main/labs/01_git_setup_and_basic_workflows.md#i-install-git) (if you haven't already)
+2. Copy and paste the rest below to your terminal:
+
+```bash
+# Lab 1:
+git config --global user.name "RedHatRanger"
+git config --global user.email "RedHatRanger@example.com"
+mkdir -p Projects/story-blog
+cd Projects/story-blog
+echo "This is a beautiful story" > story1.txt
+echo "A Lion lay asleep in the forest" > lion-and-mouse.txt
+echo "story1.txt" > .gitignore
+git status
+git add lion-and-mouse.txt
+git commit -m "Add the lion and mouse story"
+git log
+git log --oneline
+echo "Some notes about Git" > notes.md
+git add notes.md
+git commit -m "Add notes on Git"
+
+
 # Lab 2
 mkdir -p Projects/website
 cd Projects/story-blog
@@ -103,4 +145,4 @@ echo "Login feature code" > login.md
 git add login.md
 git commit -m "Implement basic login feature"
 git merge feature/login
-
+```
