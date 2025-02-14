@@ -1,3 +1,7 @@
+***"Without Git, software development would just be a bunch of people overwriting each other’s files." – Linus Torvalds***
+<br><br>
+
+
 # Lab 4: Working with Remotes
 
 In **Lab 4**, you'll learn how to connect local repositories to remote servers (like GitHub, GitLab, or Bitbucket), push and pull changes, and collaborate more effectively.
