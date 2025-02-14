@@ -3,6 +3,12 @@
 
 
 # Lab 4: Working with Remotes
+![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0) 
+
+
+
+
+
 
 In **Lab 4**, you'll learn how to connect local repositories to remote servers (like GitHub, GitLab, or Bitbucket), push and pull changes, and collaborate more effectively.
 
