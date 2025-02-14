@@ -3,7 +3,8 @@
 
 
 # Lab 4: Working with Remotes
-![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0) ![image](https://github.com/user-attachments/assets/f8013053-79f5-4620-9343-e91822464c57) ![image](https://github.com/user-attachments/assets/3aefaf69-ed0e-4994-b83b-834cbae0275e) 
+![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0) ![image](https://github.com/user-attachments/assets/3aefaf69-ed0e-4994-b83b-834cbae0275e) ![image](https://github.com/user-attachments/assets/0dc19ba3-d044-4081-abb7-0e33af541627)
+
 
 
 
