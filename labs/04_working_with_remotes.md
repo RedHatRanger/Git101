@@ -59,6 +59,7 @@ git push
 ```
 
 3. Verify on GitHub (or your remote) that your files have appeared.
+![image](https://github.com/user-attachments/assets/f7a15c68-3a77-4a0c-b846-73c87a741518)
 
 
 <br><br>
