@@ -23,23 +23,15 @@ git branch
 ```
 # The new story Sarah wrote is in the story/frogs-and-ox branch. It's time to merge the branch and bring it to the master branch.
 # But before that look at the log of the master and story/frogs-and-ox branches and identify how many commits there have been in the past on each branch.
-git log
 
-# Output:
-# commit 69f4df8d0341c5782876aee1cb77d173a7326c39 (HEAD -> master)
-# Author: sarah <sarah@example.com>
-# Date:   Fri Feb 14 15:05:48 2025 +0000
-# 
-#  Fix typo in story title
-# 
-# commit 581e4516086d6846c0dcb8eacf42a0534452a7db
-# Author: sarah <sarah@example.com>
-# Date:   Fri Feb 14 15:05:48 2025 +0000
-# 
-#  Added the lion and mouse story
+git log master
+git log story/frogs-and-ox
 ```
 
-
+# Time to merge the `story/frogs-and-ox` branch with `master`:
+```
+git merge story/frogs-and-ox -m "Merge branch 'story/frogs-and-ox'"
+```
 
 
 
