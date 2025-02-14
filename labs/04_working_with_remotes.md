@@ -3,7 +3,9 @@
 
 
 # Lab 4: Working with Remotes
-![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0) ![image](https://github.com/user-attachments/assets/0dc19ba3-d044-4081-abb7-0e33af541627) ![image](https://github.com/user-attachments/assets/3aefaf69-ed0e-4994-b83b-834cbae0275e) ![image](https://github.com/user-attachments/assets/ac18bc45-77f6-4083-b72c-e2b35567196a) ![image](https://github.com/user-attachments/assets/8e509219-b045-429d-bda1-3fc29ca76d1b) 
+![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0) ![image](https://github.com/user-attachments/assets/0dc19ba3-d044-4081-abb7-0e33af541627) ![image](https://github.com/user-attachments/assets/3aefaf69-ed0e-4994-b83b-834cbae0275e) ![image](https://github.com/user-attachments/assets/ac18bc45-77f6-4083-b72c-e2b35567196a) ![image](https://github.com/user-attachments/assets/8e509219-b045-429d-bda1-3fc29ca76d1b) ![image](https://github.com/user-attachments/assets/e776eb96-121e-4059-9f73-352294418164) ![image](https://github.com/user-attachments/assets/499fffd7-7553-489e-bcb5-38af95f89539) 
+
+
 
 
 
