@@ -225,29 +225,3 @@ Branching allows parallel development without disrupting the main codebase. In t
 <br><br>
 
 **Next:** [Lab 3: Merging Branches](03_git_branch_merging.md)
-
-
-
-<br><br><br><br>
-### In case you missed any of the previous labs, here are the commands we ran to setup it all up:
-1. [Install Git](https://github.com/RedHatRanger/Git101/blob/main/labs/01_git_setup_and_basic_workflows.md#i-install-git) (if you haven't already)
-2. Copy and paste the rest below to your terminal:
-
-```bash
-# Lab 1:
-git config --global user.name "RedHatRanger"
-git config --global user.email "RedHatRanger@example.com"
-mkdir -p Projects/story-blog
-cd Projects/story-blog
-echo "This is a beautiful story" > story1.txt
-echo "A Lion lay asleep in the forest" > lion-and-mouse.txt
-echo "story1.txt" > .gitignore
-git status
-git add lion-and-mouse.txt
-git commit -m "Add the lion and mouse story"
-git log
-git log --oneline
-echo "Some notes about Git" > notes.md
-git add notes.md
-git commit -m "Add notes on Git"
-```
