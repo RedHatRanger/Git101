@@ -224,7 +224,7 @@ Branching allows parallel development without disrupting the main codebase. In t
 
 <br><br>
 
-**Next:** Lab 3: Working with Remotes
+**Next:** [Lab 3: Merging Branches](03_git_branch_merging.md)
 
 
 
