@@ -83,6 +83,7 @@ In this lab, you practiced switching between branches, reviewing commit history,
 #### 4. **Merging the Branch**  
    - Finally, you merged the `story/frogs-and-ox` branch into `master` using:  
      ```bash
+     git checkout master
      git merge story/frogs-and-ox -m "Merge branch 'story/frogs-and-ox'"
      ```
    - This incorporated all the changes from the feature branch into the main branch.
