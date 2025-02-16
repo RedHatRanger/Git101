@@ -1,4 +1,4 @@
-***"Without Git, software development would just be a bunch of people overwriting each other’s files." – Linus Torvalds***
+***"Learning never exhausts the mind." — Leonardo da Vinci***
 <br><br>
 
 # Lab 5: Cloning Remote Repositories
