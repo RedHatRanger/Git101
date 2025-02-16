@@ -2,6 +2,9 @@
 <br><br>
 
 # Lab 5: Cloning Remote Repositories
+![image](https://github.com/user-attachments/assets/bb0c006d-bdce-4b74-8e9e-222b9a8ce728) ![image](https://github.com/user-attachments/assets/cde069e9-5532-4201-8943-c076c4a166ef)
+
+
 
 
 
