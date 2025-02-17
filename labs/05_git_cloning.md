@@ -18,14 +18,14 @@ git clone git@github.com:RedHatRanger/story-blog.git
 # Resolving deltas: 100% (2/2), done.
 ```
 
-2. Create YOUR Repository on GitHub, GitBucket, or Gitea [Tutorial on YouTube](https://www.youtube.com/watch?v=Oaj3RBIoGFc&t=653s).
+2. Create YOUR Repository on GitHub, GitBucket, or Gitea [(Tutorial on YouTube)](https://www.youtube.com/watch?v=Oaj3RBIoGFc&t=653s).
 
 3. Generate SSH keys from your local computer to distribute to GitHub:
 ```
 ssh-keygen -t rsa -b 4096
 ```
 
-4. Copy the `id_rsa.pub` contents and add it to GitHub [Tutorial on YouTube](https://www.youtube.com/watch?v=X40b9x9BFGo):
+4. Copy the `id_rsa.pub` contents and add it to GitHub [(Tutorial on YouTube)](https://www.youtube.com/watch?v=X40b9x9BFGo):
 ![image](https://github.com/user-attachments/assets/efd75bd0-80bb-47e7-a358-3bae961da3c1)
 
 
