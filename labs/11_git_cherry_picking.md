@@ -13,3 +13,5 @@
 <br><br>
 # Main Lab
 ![image](https://github.com/user-attachments/assets/8ca93169-7339-4284-801c-f8f855bc90b9)
+
+![image](https://github.com/user-attachments/assets/1b32028b-5cb3-48c3-8f1f-c1145ed33c14)
