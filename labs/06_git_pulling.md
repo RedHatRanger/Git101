@@ -40,6 +40,9 @@ PR merge into branch: master (destination)
 Add tom as reviewer through the Git Portal UI
 ```
 
+> It should look something like this when you are finished:
+![image](https://github.com/user-attachments/assets/27f4225f-e16d-44b2-8e84-033098201294)
+
 
 
 
