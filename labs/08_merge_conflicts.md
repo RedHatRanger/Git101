@@ -71,6 +71,7 @@ git push -u origin master
 
 # The conflicts are resolved!
 ```
+![image](https://github.com/user-attachments/assets/04345d72-720a-45b1-86a5-ab12572751c4)
 
 
 
