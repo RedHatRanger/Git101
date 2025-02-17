@@ -67,6 +67,9 @@ EOF
 
 git add story-index.txt 
 git commit -m "Resolved merge conflicts and merged story index"
+git push -u origin master
+
+# The conflicts are resolved!
 ```
 
 
