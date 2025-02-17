@@ -14,6 +14,7 @@
 ![image](https://github.com/user-attachments/assets/32853b67-4bbe-4319-9b9b-4972e5a0bc17)
 ![image](https://github.com/user-attachments/assets/550d4f36-0f70-4458-a5d8-088ba9c0958f)
 > Jon has Read permissions...so Jon can fork the repo for now.
+
 ![image](https://github.com/user-attachments/assets/7d6b8005-a631-4b7a-a5c2-777ea9fc1e76)
 
 > Here you would click `Fork`:
