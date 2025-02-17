@@ -77,9 +77,18 @@ git push -u origin master
 
 ![image](https://github.com/user-attachments/assets/74689523-9604-4572-81d6-a636f5109124)
 
+![image](https://github.com/user-attachments/assets/1b4e14e2-ac93-4332-8d4a-131244c324c9)
 
+![image](https://github.com/user-attachments/assets/1711cc3f-0fd0-4a86-8af3-b8469c617acb)
 
+5. Log in as Sarah to approve the merge:
+![image](https://github.com/user-attachments/assets/b7f09f6a-56e3-442b-a3fb-b04ecec85f84)
 
+![image](https://github.com/user-attachments/assets/d7de3eb0-ae68-4a30-95ee-f3a7ec047310)
+
+> Click on the Notifications to view the PR:
+
+![image](https://github.com/user-attachments/assets/0187bd4d-003b-4aed-8284-c16966cd4726)
 
 
 <br><br>
