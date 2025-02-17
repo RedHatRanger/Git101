@@ -61,11 +61,10 @@ And off he walked very, very scornfully.
 EOF
 ```
 
+![image](https://github.com/user-attachments/assets/aa07b53d-d4b8-4b45-bea8-522475f820d0)
+
 ![image](https://github.com/user-attachments/assets/172832fa-3f3a-4b00-8a32-664df4afd95a)
 
-
-
-![image](https://github.com/user-attachments/assets/aa07b53d-d4b8-4b45-bea8-522475f820d0)
 
 3. Stage and commit the new changes.  Then push them to the remote master:
 ```
