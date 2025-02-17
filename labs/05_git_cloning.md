@@ -4,6 +4,13 @@
 # Lab 5: Cloning Remote Repositories
 ![image](https://github.com/user-attachments/assets/bb0c006d-bdce-4b74-8e9e-222b9a8ce728) ![image](https://github.com/user-attachments/assets/cde069e9-5532-4201-8943-c076c4a166ef) ![image](https://github.com/user-attachments/assets/b4a24a1d-9072-466c-b16f-0fcba96f63a1) ![image](https://github.com/user-attachments/assets/6d9f09e2-e167-4eef-92be-f814c16e2ce6) ![image](https://github.com/user-attachments/assets/56b26d71-c6e9-4f4d-9a77-8532e8ba5bbb) 
 
+# The Setup:
+```
+git config --global --unset user.name
+git config --global --unset user.email
+```
+
+# Main Lab:
 1. Clone a Remote Repository (Use the SSH option):
 ```
 git clone git@github.com:RedHatRanger/story-blog.git
@@ -39,4 +46,5 @@ ssh-keygen -t rsa -b 4096
 git add fox-and-grapes.txt
 git commit -m "Added 'The End' to fox and grapes story"
 ```
+![image](https://github.com/user-attachments/assets/31ed5081-cec1-4a31-be17-7600b6cd7138)
 
