@@ -46,7 +46,12 @@ git log origin/master
 # Sarah had the last commit
 ```
 ![image](https://github.com/user-attachments/assets/d7de0dc3-d009-44c5-9372-96042215d785)
+![image](https://github.com/user-attachments/assets/f4f1ed9f-8aaf-4bee-825b-18a7b60fc43b)
 
+```
+cat story-index.txt
+```
+![image](https://github.com/user-attachments/assets/38fef64a-6336-4e82-830e-73cb2fc3f9d4)
 
 
 **Next:** [Lab 9: Git Log, Diff, and History](09_git_log_diff_and_history.md)
