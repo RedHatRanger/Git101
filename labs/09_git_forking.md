@@ -71,6 +71,13 @@ git commit -m "Added fox-and-grapes story"
 git push -u origin master
 ```
 
+4. Submit a Pull Request to merge changes to Sarah's repository:
+![image](https://github.com/user-attachments/assets/ab8b1ebb-bb88-487a-9e45-d0bd2333a1d0)
+
+![image](https://github.com/user-attachments/assets/74689523-9604-4572-81d6-a636f5109124)
+
+
+
 
 
 
