@@ -13,11 +13,23 @@ git checkout main
 git fetch origin main
 ```
 
+<br><br>
 2. Let's view all the branches including remotes:
 ```
 git branch -a
 ```
 
+<br><br>
+3. Now, we need to merge the remote changes with our local main branch:
+```
+git merge origin/main
+```
+
+<br><br>
+4. Ultimately, the `git pull` combines the `git fetch` and `git merge` commands:
+```
+git pull origin main
+```
 
 
 <br><br>
