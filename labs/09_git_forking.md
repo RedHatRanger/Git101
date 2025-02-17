@@ -1,3 +1,8 @@
+
+
+"Success doesn't come from what you do occasionally. It comes from what you do consistently." – Marie Forleo
+
+
 # Lab 9: Git Forking
 ![image](https://github.com/user-attachments/assets/77066e2e-a55f-4c59-b6ee-3bdeecf8f8a1)
 
