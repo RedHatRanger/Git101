@@ -4,20 +4,29 @@
 # Lab 5: Cloning Remote Repositories
 ![image](https://github.com/user-attachments/assets/bb0c006d-bdce-4b74-8e9e-222b9a8ce728) ![image](https://github.com/user-attachments/assets/cde069e9-5532-4201-8943-c076c4a166ef) ![image](https://github.com/user-attachments/assets/b4a24a1d-9072-466c-b16f-0fcba96f63a1) ![image](https://github.com/user-attachments/assets/6d9f09e2-e167-4eef-92be-f814c16e2ce6) ![image](https://github.com/user-attachments/assets/56b26d71-c6e9-4f4d-9a77-8532e8ba5bbb) 
 
-1. Clone a Remote Repository:
+1. Clone a Remote Repository (Use the SSH option):
 ```
-git clone git@github.com:RedHatRanger/Git101.git
+git clone git@github.com:RedHatRanger/story-blog.git
 
-# Output
-# Cloning into 'Git101'...
-# remote: Enumerating objects: 587, done.
-# remote: Counting objects: 100% (184/184), done.
-# remote: Compressing objects: 100% (184/184), done.
-# remote: Total 587 (delta 132), reused 0 (delta 0), pack-reused 403 (from 2)
-# Receiving objects: 100% (587/587), 168.60 KiB | 3.01 MiB/s, done.
-# Resolving deltas: 100% (407/407), done.
+# Output:
+# Cloning into 'story-blog'...
+# remote: Enumerating objects: 11, done.
+# remote: Counting objects: 100% (11/11), done.
+# remote: Compressing objects: 100% (10/10), done.
+# remote: Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+# Receiving objects: 100% (11/11), 4.82 KiB | 987.00 KiB/s, done.
+# Resolving deltas: 100% (2/2), done.
 ```
 
+2. Create YOUR Repository on GitHub, GitBucket, or Gitea [Tutorial on YouTube](https://www.youtube.com/watch?v=Oaj3RBIoGFc&t=653s).
+
+3. Generate SSH keys from your local computer to distribute to GitHub:
+```
+ssh-keygen -t rsa -b 4096
+```
+
+4. Copy the `id_rsa.pub` contents and add it to GitHub [Tutorial on YouTube](https://www.youtube.com/watch?v=X40b9x9BFGo):
+![image](https://github.com/user-attachments/assets/efd75bd0-80bb-47e7-a358-3bae961da3c1)
 
 
 
