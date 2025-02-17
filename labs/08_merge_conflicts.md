@@ -28,20 +28,14 @@ git commit -m "Add index of stories"
 2. However, Max gets rejected when he pushes the changes to the remote repository:
 ```
 git push -u origin master
-
-# ERROR MESSAGE OUTPUT:
-To http://git.example.com/sarah/story-blog.git
- ! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'http://git.example.com/sarah/story-blog.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
-# This error states that there is work on the remote repository that doesn't exist locally yet.
 ```
+![image](https://github.com/user-attachments/assets/ced11466-d36d-4fee-b018-6761d2f24b8b)
 
+>This error states that there is work on the remote repository that doesn't exist locally yet.
+
+
+3. So we have to do a `git pull origin master` or `git pull`:
+![image](https://github.com/user-attachments/assets/2e7b38ac-ffab-459c-98b0-a5147e7ad320)
 
 
 
