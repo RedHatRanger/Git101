@@ -1,4 +1,4 @@
-***"Learning never exhausts the mind." — Leonardo da Vinci***
+***"Question everything. Learn something. Answer nothing." – Euripides***
 <br><br>
 
 # Lab 5: Cloning Remote Repositories
