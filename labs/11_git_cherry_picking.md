@@ -18,7 +18,16 @@
 
 ![image](https://github.com/user-attachments/assets/55b9506f-64a8-4dd7-8607-efe285980ee4)
 
->Let's identify the last hash:
-
+1. Let's identify one we want to cherry pick:
 ![image](https://github.com/user-attachments/assets/251b2f76-efb7-4705-807c-4470b33d333f)
+```
+git log master --oneline
+# f2ba941 Updated the story index file
+```
 
+2. Now, let's cherry pick that one:
+```
+git cherry-pick f2ba941
+```
+
+* Done!
