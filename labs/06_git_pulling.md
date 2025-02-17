@@ -58,6 +58,17 @@ As Tom:
 - You may need to scroll down to see the Approve button.
 ```
 
+6. Now Sarah can merge into the master:
+```
+As Sarah:
+- Go to the Pull Request
+
+- Select the PR
+
+- Click on the green button Merge Pull Request and then confirm again by clicking on the green button Merge Pull Request to merge the PR
+
+- PR status should be shown as Merged
+```
 
 
 <br><br>
