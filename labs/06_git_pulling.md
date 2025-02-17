@@ -20,6 +20,23 @@ git add fox-and-grapes.txt
 git commit -m "Updated fox-and-grapes story"
 ```
 
+<br><br>
+3. Push the committed changes to the new remote branch:
+```
+git push -u origin story/fox-and-grapes
+
+# You will have to enter the password if you didn't add SSH keys in GitHub
+```
+
+<br><br>
+4. Access GitHub, GitBucket, or Gitea's UI portal to submit a Pull Request (PR) to merge the changes to master:
+```
+PR title : Added fox-and-grapes story
+
+PR pull from branch: story/fox-and-grapes (source)
+
+PR merge into branch: master (destination)
+```
 
 
 
