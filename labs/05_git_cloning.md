@@ -10,6 +10,7 @@ git config --global --unset user.name
 git config --global --unset user.email
 ```
 
+<br><br>
 # Main Lab:
 1. Clone a Remote Repository (Use the SSH option):
 ```
@@ -28,13 +29,16 @@ git clone git@github.com:RedHatRanger/story-blog.git
 cd story-blog
 ```
 
+<br><br>
 2. Create YOUR Repository on GitHub, GitBucket, or Gitea [(Tutorial on YouTube)](https://www.youtube.com/watch?v=Oaj3RBIoGFc&t=653s).
 
+<br><br>
 3. Generate SSH keys from your local computer to distribute to GitHub:
 ```
 ssh-keygen -t rsa -b 4096
 ```
 
+<br><br>
 4. Copy the `id_rsa.pub` contents and add it to GitHub [(Tutorial on YouTube)](https://www.youtube.com/watch?v=X40b9x9BFGo): \
 ![image](https://github.com/user-attachments/assets/9bb8a404-76bb-4c53-a542-f08096040ac0)
 ![image](https://github.com/user-attachments/assets/efd75bd0-80bb-47e7-a358-3bae961da3c1)
