@@ -23,7 +23,7 @@
 
 
 ># The Setup
->```
+```
 cd ~/story-blog
 cat << EOF > wolf-and-goat.txt
 --------------------------------------------
@@ -45,7 +45,7 @@ A wolf saw a goat grazing at the edge of a high cliff. The wolf smacked his lips
 "My dear wolf," the goat finally said, "are you quite sure that it is MY dinner you are worrying about and not your own?"
 <br><br>
 EOF
->```
+```
 
 <br><br>
 # Main Lab
