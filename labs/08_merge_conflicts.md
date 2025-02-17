@@ -1,4 +1,4 @@
-***"Success doesn’t come to you, you go to it." – Marva Collins***
+***"Success is not final, failure is not fatal: it is the courage to continue that counts." – Winston Churchill***
 <br><br>
 
 # Lab 8: Merge Conflicts
