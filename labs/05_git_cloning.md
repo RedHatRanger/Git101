@@ -33,6 +33,10 @@ ssh-keygen -t rsa -b 4096
 ![image](https://github.com/user-attachments/assets/efd75bd0-80bb-47e7-a358-3bae961da3c1)
 
 
-
-
+5. Stage some new changes...You may get an error for adding an anonymous commit:
+- Add "The End" to the end of the `fox-and-grapes.txt` file and save it.
+```
+git add fox-and-grapes.txt
+git commit -m "Added 'The End' to fox and grapes story"
+```
 
