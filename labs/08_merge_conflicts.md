@@ -15,12 +15,33 @@
 >3. The Fox and the Grapes
 >4. The Donkey and the Dog
 >EOF
->
->git add story-index.txt 
->git commit -m "Add index of stories"
 >```
 
+<br><br>
 # Main Lab
+1. Max stages `story-index.txt` and commits the file successfully:
+```
+git add story-index.txt 
+git commit -m "Add index of stories"
+```
+
+2. However, Max gets rejected when he pushes the changes to the remote repository:
+```
+git push -u origin master
+
+# ERROR MESSAGE OUTPUT:
+To http://git.example.com/sarah/story-blog.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'http://git.example.com/sarah/story-blog.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+# This error states that there is work on the remote repository that doesn't exist locally yet.
+```
+
 
 
 
