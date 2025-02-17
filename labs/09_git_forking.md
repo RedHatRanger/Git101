@@ -12,7 +12,8 @@
 # Main Lab
 ![image](https://github.com/user-attachments/assets/a3487228-d0f1-4665-a175-50b8c6eae2c3)
 ![image](https://github.com/user-attachments/assets/32853b67-4bbe-4319-9b9b-4972e5a0bc17)
-
+![image](https://github.com/user-attachments/assets/550d4f36-0f70-4458-a5d8-088ba9c0958f)
+> Jon has Read permissions...so Jon can fork the repo for now.
 
 <br><br>
 **Next:** [Lab 10: Custom Configurations](10_custom_configurations.md)
