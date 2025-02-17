@@ -6,4 +6,5 @@
 
 >However, another way to achieve this is through REBASING:
 
+![image](https://github.com/user-attachments/assets/66879c3b-e506-4faa-8026-2b8643b37d49)
 
