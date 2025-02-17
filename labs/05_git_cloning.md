@@ -39,7 +39,7 @@ ssh-keygen -t rsa -b 4096
 ![image](https://github.com/user-attachments/assets/9bb8a404-76bb-4c53-a542-f08096040ac0)
 ![image](https://github.com/user-attachments/assets/efd75bd0-80bb-47e7-a358-3bae961da3c1)
 
-
+<br><br>
 5. Stage some new changes...You may get an error for adding an anonymous commit:
 - Add "The End" to the end of the `fox-and-grapes.txt` file and save it.
 ```
