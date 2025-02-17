@@ -43,8 +43,8 @@ Add tom as reviewer through the Git Portal UI
 > It should look something like this when you are finished:
 ![image](https://github.com/user-attachments/assets/27f4225f-e16d-44b2-8e84-033098201294)
 
-
-
+<br><br>
+5. Tom can now review the changes when he logs in and merge the changes as necessary.
 
 
 
