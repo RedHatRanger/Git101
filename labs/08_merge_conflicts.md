@@ -1,4 +1,4 @@
-***"In learning you will teach, and in teaching you will learn." – Phil Collins***
+***"Success doesn’t come to you, you go to it." – Marva Collins***
 <br><br>
 
 # Lab 8: Merge Conflicts
