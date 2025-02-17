@@ -64,6 +64,9 @@ cat << EOF > story-index.txt
 3. The Fox and the Grapes
 4. The Donkey and the Dog
 EOF
+
+git add story-index.txt 
+git commit -m "Resolved merge conflicts and merged story index"
 ```
 
 
