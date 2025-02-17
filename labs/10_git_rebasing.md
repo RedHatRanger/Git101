@@ -23,3 +23,8 @@
 
 <br><br>
 # Main Lab
+![image](https://github.com/user-attachments/assets/c46274ad-5879-4a4b-8438-194a712ff010)
+
+![image](https://github.com/user-attachments/assets/5579f4e3-0338-4f61-9619-a20476c156f9)
+
+![image](https://github.com/user-attachments/assets/63155186-2e62-4111-b085-4827c87d0e61)
