@@ -90,6 +90,9 @@ git push -u origin master
 
 ![image](https://github.com/user-attachments/assets/0187bd4d-003b-4aed-8284-c16966cd4726)
 
+![image](https://github.com/user-attachments/assets/308f84d4-cb86-48cd-9b06-9235821d2a6b)
+> Merge Pull Request
+
 
 <br><br>
 **Next:** [Lab 10: Custom Configurations](10_custom_configurations.md)
