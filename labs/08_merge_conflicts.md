@@ -35,13 +35,15 @@ git push -u origin master
 >This error states that there is work on the remote repository that doesn't exist locally yet.
 
 <br><br>
-3. So we have to do a `git pull origin master` or `git pull`:
+3. So we have to do a `git pull origin master` or `git pull` but the conflict is there:
 ![image](https://github.com/user-attachments/assets/2e7b38ac-ffab-459c-98b0-a5147e7ad320)
 
+![image](https://github.com/user-attachments/assets/017e138a-9b77-4c54-ba07-0e5063c969f0)
 
-
-
-
+<br><br>
+```
+git log origin/master
+```
 
 
 
