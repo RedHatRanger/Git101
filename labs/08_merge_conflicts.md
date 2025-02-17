@@ -25,6 +25,7 @@ git add story-index.txt
 git commit -m "Add index of stories"
 ```
 
+<br><br>
 2. However, Max gets rejected when he pushes the changes to the remote repository:
 ```
 git push -u origin master
@@ -33,7 +34,7 @@ git push -u origin master
 
 >This error states that there is work on the remote repository that doesn't exist locally yet.
 
-
+<br><br>
 3. So we have to do a `git pull origin master` or `git pull`:
 ![image](https://github.com/user-attachments/assets/2e7b38ac-ffab-459c-98b0-a5147e7ad320)
 
