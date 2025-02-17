@@ -55,6 +55,16 @@ cat story-index.txt
 ![image](https://github.com/user-attachments/assets/2cbdd58f-990f-43d3-8317-9af667845670)
 ![image](https://github.com/user-attachments/assets/b6bb338b-9b0a-450b-a5d8-816b7272686c)
 
+<br><br>
+4. Modify the `story-index.txt` file:
+```
+cat << EOF > story-index.txt
+1. The Lion and the Mouse
+2. The Frogs and the Ox
+3. The Fox and the Grapes
+4. The Donkey and the Dog
+EOF
+```
 
 
 
