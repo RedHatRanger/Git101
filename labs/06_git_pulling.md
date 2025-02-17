@@ -44,7 +44,19 @@ Add tom as reviewer through the Git Portal UI
 ![image](https://github.com/user-attachments/assets/27f4225f-e16d-44b2-8e84-033098201294)
 
 <br><br>
-5. Tom can now review the changes when he logs in and merge the changes as necessary.
+5. Tom can now review the changes when he logs in and merge the changes as necessary:
+```
+As Tom:
+- Go to story-blog repo and click on Pull Requests
+
+- Click on the PR - Added fox-and-grapes story
+
+- Click on Files changed tab and then the green drop down button Review.
+
+- Add any approval message and click on the Approve button to approve the PR.
+
+- You may need to scroll down to see the Approve button.
+```
 
 
 
