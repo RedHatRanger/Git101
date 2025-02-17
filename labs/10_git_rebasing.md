@@ -21,6 +21,31 @@
 
 >Here, we successfully created a new commit that contains all the changes of the last 4 commits!
 
+
+># The Setup
+>cd ~/story-blog
+>cat << EOF > wolf-and-goat.txt
+--------------------------------------------
+      THE WOLF AND THE GOAT
+--------------------------------------------
+
+A wolf saw a goat grazing at the edge of a high cliff. The wolf smacked his lips at the thought of a fine goat dinner.
+
+"My dear friend," said the wolf in his sweetest voice, "aren't you afraid you will fall down from that cliff? Come down here and graze on this fine grass beside me on safe, level ground."
+
+"No, thank you," said the goat.
+
+"Well then," said the wolf, "aren't you cold up there in the wind? You would be warmer grazing down here beside me in this sheltered area."
+
+"No, thank you," said the goat.
+
+"But the grass tastes better down here!" said the exasperated wolf, "Why dine alone?"
+
+"My dear wolf," the goat finally said, "are you quite sure that it is MY dinner you are worrying about and not your own?"
+<br><br>
+>EOF
+
+
 <br><br>
 # Main Lab
 ![image](https://github.com/user-attachments/assets/c46274ad-5879-4a4b-8438-194a712ff010)
@@ -40,5 +65,13 @@ git pull origin master
 ```
 ![image](https://github.com/user-attachments/assets/2d31fdd9-943e-4cdf-9f22-e83d51d94f69)
 
+![image](https://github.com/user-attachments/assets/73623d30-fb2c-4b4f-a2a8-67950a778262)
+
+<br><br>
+2. How many commits are in the `story/hare-and-tortoise`:
+```
+git log story/tortoise-and-hare
+```
+![image](https://github.com/user-attachments/assets/17622785-0017-4318-b495-a6c9c86afa75)
 
 
