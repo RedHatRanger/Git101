@@ -73,8 +73,12 @@ git log
 git remote add origin git@github.com:RedHatRanger/story-blog.git
 git push -u origin main
 
-# If `origin` exists already, either choose another name, or remove the remote:
-git remote remove origin
+# (OPTIONAL) If `origin` exists, either choose another name, or remove the remote:
+# (1) git remote add new-origin git@github.com:RedHatRanger/story-blog.git 
+# (2) git remote remove origin
+
+# (OPTIONAL) If you want to know what origin is:
+# (1) git remote get-url --all origin
 
 # Then repeat step 6
 ```
