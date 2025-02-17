@@ -52,6 +52,8 @@ git log origin/master
 cat story-index.txt
 ```
 ![image](https://github.com/user-attachments/assets/38fef64a-6336-4e82-830e-73cb2fc3f9d4)
+![image](https://github.com/user-attachments/assets/2cbdd58f-990f-43d3-8317-9af667845670)
+
 
 
 **Next:** [Lab 9: Git Log, Diff, and History](09_git_log_diff_and_history.md)
