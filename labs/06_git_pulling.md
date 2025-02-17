@@ -36,6 +36,8 @@ PR title : Added fox-and-grapes story
 PR pull from branch: story/fox-and-grapes (source)
 
 PR merge into branch: master (destination)
+
+Add tom as reviewer through the Git Portal UI
 ```
 
 
