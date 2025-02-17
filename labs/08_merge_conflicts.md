@@ -15,6 +15,9 @@
 >3. The Fox and the Grapes
 >4. The Donkey and the Dog
 >EOF
+>
+>git add story-index.txt 
+>git commit -m "Add index of stories"
 >```
 
 # Main Lab
