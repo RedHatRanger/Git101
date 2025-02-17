@@ -26,6 +26,13 @@
 
 ![image](https://github.com/user-attachments/assets/c583b095-5a4c-42f7-9247-7acdfdc0d5e9)
 
+![image](https://github.com/user-attachments/assets/69e425b7-50d4-4088-ae34-05dd2cae8e69)
+
+1. First, `git clone` the newly forked repository:
+```
+cd /home/jon/; git clone http://git.example.com/jon/story-blog.git
+```
+![image](https://github.com/user-attachments/assets/21e829e2-39bb-4922-8c98-4f88b10b8b99)
 
 
 <br><br>
