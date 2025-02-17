@@ -67,8 +67,14 @@ git log
 ```
 ![image](https://github.com/user-attachments/assets/14f004f8-2dbb-4e38-bf34-3022ece1230f)
 
+<br><br>
 6. Add the remote repository you setup 
 ```
 git remote add origin git@github.com:RedHatRanger/story-blog.git
 git push -u origin main
+
+# If `origin` exists already, either choose another name, or remove the remote:
+git remote remove origin
+
+# Then repeat step 6
 ```
