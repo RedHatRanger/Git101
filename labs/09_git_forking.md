@@ -8,6 +8,10 @@
 >but it's a place where you can operate on it safely.  You can then do a pull request once
 >you have made some contributions to the project.
 
+<br><br>
+# Main Lab
+![image](https://github.com/user-attachments/assets/a3487228-d0f1-4665-a175-50b8c6eae2c3)
+
 
 <br><br>
 **Next:** [Lab 10: Custom Configurations](10_custom_configurations.md)
