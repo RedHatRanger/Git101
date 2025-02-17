@@ -5,11 +5,11 @@
 ![image](https://github.com/user-attachments/assets/bb0c006d-bdce-4b74-8e9e-222b9a8ce728) ![image](https://github.com/user-attachments/assets/cde069e9-5532-4201-8943-c076c4a166ef) ![image](https://github.com/user-attachments/assets/b4a24a1d-9072-466c-b16f-0fcba96f63a1) ![image](https://github.com/user-attachments/assets/6d9f09e2-e167-4eef-92be-f814c16e2ce6) ![image](https://github.com/user-attachments/assets/5797dff3-cf11-4760-a912-390f574cb392)
 
 
-# The Setup:
-```
-git config --global --unset user.name
-git config --global --unset user.email
-```
+># The Setup:
+>```
+>git config --global --unset user.name
+>git config --global --unset user.email
+>```
 
 <br><br>
 # Main Lab:
