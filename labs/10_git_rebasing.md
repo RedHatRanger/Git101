@@ -1,4 +1,4 @@
-***"The way to get started is to quit talking and begin doing." – Walt Disney***
+***"You can’t go back and change the beginning, but you can start where you are and change the ending." – C.S. Lewis***
 <br><br>
 
 # Lab 9: Git Rebasing
