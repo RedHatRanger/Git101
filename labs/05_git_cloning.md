@@ -57,6 +57,15 @@ git commit -m "Added 'The End' to fox and grapes story"
 ```
 git config --global user.name "John Smith"
 git config --global user.email "jsmith@example.com"
+
+# Then run the commands again to stage and commit:
+git add fox-and-grapes.txt
+git commit -m "Added 'The End' to fox and grapes story"
+
+# Check the log for the user name and email information
+git log
 ```
+![image](https://github.com/user-attachments/assets/14f004f8-2dbb-4e38-bf34-3022ece1230f)
+
 
 
