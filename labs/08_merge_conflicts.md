@@ -53,6 +53,8 @@ cat story-index.txt
 ```
 ![image](https://github.com/user-attachments/assets/38fef64a-6336-4e82-830e-73cb2fc3f9d4)
 ![image](https://github.com/user-attachments/assets/2cbdd58f-990f-43d3-8317-9af667845670)
+![image](https://github.com/user-attachments/assets/b6bb338b-9b0a-450b-a5d8-816b7272686c)
+
 
 
 
