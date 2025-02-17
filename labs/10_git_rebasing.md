@@ -6,7 +6,7 @@
 
 ![image](https://github.com/user-attachments/assets/032155ca-7116-4473-89ca-02e517f5d6d6)
 
-
+<br><br>
 >However, another way to achieve this is through REBASING:
 
 ![image](https://github.com/user-attachments/assets/66879c3b-e506-4faa-8026-2b8643b37d49)
