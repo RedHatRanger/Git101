@@ -14,7 +14,11 @@ git checkout -b story/fox-and-grapes
 ```
 
 <br><br>
-2. 
+2. Make a slight change to the `fox-and-grapes.txt`, stage, then commit to the new branch:
+```
+git add fox-and-grapes.txt 
+git commit -m "Updated fox-and-grapes story"
+```
 
 
 
