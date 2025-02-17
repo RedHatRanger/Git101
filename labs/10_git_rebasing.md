@@ -28,3 +28,17 @@
 ![image](https://github.com/user-attachments/assets/5579f4e3-0338-4f61-9619-a20476c156f9)
 
 ![image](https://github.com/user-attachments/assets/63155186-2e62-4111-b085-4827c87d0e61)
+
+<br><br>
+1. Let's pull the changes from the remote repository:
+![image](https://github.com/user-attachments/assets/46ded33d-b969-48c7-ae86-82cff81a83e4)
+
+```
+cd ~/story-blog
+git checkout master
+git pull origin master
+```
+![image](https://github.com/user-attachments/assets/2d31fdd9-943e-4cdf-9f22-e83d51d94f69)
+
+
+
