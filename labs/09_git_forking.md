@@ -61,12 +61,10 @@ And off he walked very, very scornfully.
 EOF
 ```
 
+3. Stage and commit the new changes.  Then push them to the remote master:
 ![image](https://github.com/user-attachments/assets/aa07b53d-d4b8-4b45-bea8-522475f820d0)
 
 ![image](https://github.com/user-attachments/assets/172832fa-3f3a-4b00-8a32-664df4afd95a)
-
-
-3. Stage and commit the new changes.  Then push them to the remote master:
 ```
 git add fox-and-grapes.txt
 git commit -m "Added fox-and-grapes story"
