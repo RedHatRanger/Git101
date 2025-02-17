@@ -52,3 +52,11 @@ git commit -m "Added 'The End' to fox and grapes story"
 ```
 ![image](https://github.com/user-attachments/assets/31ed5081-cec1-4a31-be17-7600b6cd7138)
 
+<br><br>
+6. Configure your global git credentials:
+```
+git config --global user.name "John Smith"
+git config --global user.email "jsmith@example.com"
+```
+
+
