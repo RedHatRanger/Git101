@@ -19,4 +19,4 @@
 
 ![image](https://github.com/user-attachments/assets/3771dc69-6002-4caf-a9a1-b85d0e6eb95f)
 
-
+>Here, we successfully created a new commit that contains all the changes of the last 4 commits!
