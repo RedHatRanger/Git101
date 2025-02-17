@@ -75,4 +75,4 @@ git log story/tortoise-and-hare
 ```
 ![image](https://github.com/user-attachments/assets/17622785-0017-4318-b495-a6c9c86afa75)
 
-
+>Answer: 5
