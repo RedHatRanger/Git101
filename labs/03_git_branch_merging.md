@@ -95,4 +95,4 @@ By completing this lab, you have learned how to navigate branches, check commit 
 
 <br><br>
 
-**Next:** [Lab 4: Merging Branches](04_working_with_remotes.md)
+**Next:** [Lab 4: Merging Branches](04_git_remote_and_git_push.md)
