@@ -16,6 +16,9 @@ git clone git@github.com:RedHatRanger/story-blog.git
 # remote: Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 # Receiving objects: 100% (11/11), 4.82 KiB | 987.00 KiB/s, done.
 # Resolving deltas: 100% (2/2), done.
+
+
+cd story-blog
 ```
 
 2. Create YOUR Repository on GitHub, GitBucket, or Gitea [(Tutorial on YouTube)](https://www.youtube.com/watch?v=Oaj3RBIoGFc&t=653s).
