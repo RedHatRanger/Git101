@@ -62,10 +62,13 @@ git config --global user.email "jsmith@example.com"
 git add fox-and-grapes.txt
 git commit -m "Added 'The End' to fox and grapes story"
 
-# Check the log for the user name and email information
+# Check the log for the user name and email information that you set up:
 git log
 ```
 ![image](https://github.com/user-attachments/assets/14f004f8-2dbb-4e38-bf34-3022ece1230f)
 
-
-
+6. Add the remote repository you setup 
+```
+git remote add origin git@github.com:RedHatRanger/story-blog.git
+git push -u origin main
+```
