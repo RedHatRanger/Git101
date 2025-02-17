@@ -45,7 +45,31 @@ A wolf saw a goat grazing at the edge of a high cliff. The wolf smacked his lips
 "My dear wolf," the goat finally said, "are you quite sure that it is MY dinner you are worrying about and not your own?"
 <br><br>
 EOF
+
+cat << EOF > hare-and-tortoise.txt
+--------------------------------------------
+      THE HARE AND TORTOISE
+--------------------------------------------
+
+A Hare was making fun of the Tortoise one day for being so slow.
+
+"Do you ever get anywhere?" he asked with a mocking laugh.
+
+"Yes," replied the Tortoise, "and I get there sooner than you think. I'll run you a race and prove it."
+
+The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed.
+
+So the Fox, who had consented to act as judge, marked the distance and started the runners off.
+
+The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.
+
+The Tortoise meanwhile kept going slowly but steadily, and, after a time, passed the place where the Hare was sleeping.
+
+But the Hare slept on very peacefully; and when at last he did wake up, the Tortoise was near the goal. The Hare now ran his swiftest, but he could not overtake the Tortoise in time.
+EOF
 ```
+
+
 
 <br><br>
 # Main Lab
@@ -76,3 +100,33 @@ git log story/tortoise-and-hare
 ![image](https://github.com/user-attachments/assets/17622785-0017-4318-b495-a6c9c86afa75)
 
 >Answer: 5
+
+<br><br>
+3. Rebase the `story/hare-and-tortoise` branch on top of `master`:
+![image](https://github.com/user-attachments/assets/de3c9f52-d9aa-449f-86bf-8bf7a543dd27)
+
+```
+git checkout story/hare-and-tortoise
+git rebase master
+```
+
+![image](https://github.com/user-attachments/assets/e3c36427-0e00-4c48-85e7-16b94b7648f7)
+
+
+![image](https://github.com/user-attachments/assets/904418e6-23f1-42db-bfaf-17291de48721)
+
+![image](https://github.com/user-attachments/assets/8851a8ce-dddc-42cc-8d54-6504bb20b70b)
+
+```
+git log --oneline
+git rebase -i HEAD~3
+
+# squash the bottom two commits by replacing pick with squash. Then save the file.
+
+git log --oneline
+```
+![image](https://github.com/user-attachments/assets/4b1b2efe-0146-4330-99be-252e0bde8cd0)
+
+![image](https://github.com/user-attachments/assets/4b7d081a-0393-40e2-be49-edb89851ffd6)
+
+* Done
