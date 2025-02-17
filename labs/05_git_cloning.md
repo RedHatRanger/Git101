@@ -78,3 +78,7 @@ git remote remove origin
 
 # Then repeat step 6
 ```
+
+<br><br>
+
+**Next:** [Lab 5: Merging Branches]()
