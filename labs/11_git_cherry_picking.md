@@ -19,5 +19,6 @@
 ![image](https://github.com/user-attachments/assets/55b9506f-64a8-4dd7-8607-efe285980ee4)
 
 >Let's identify the last hash:
+
 ![image](https://github.com/user-attachments/assets/251b2f76-efb7-4705-807c-4470b33d333f)
 
