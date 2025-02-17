@@ -40,11 +40,12 @@ git push -u origin master
 
 ![image](https://github.com/user-attachments/assets/017e138a-9b77-4c54-ba07-0e5063c969f0)
 
-<br><br>
 ```
 git log origin/master
-```
 
+# Sarah had the last commit
+```
+![image](https://github.com/user-attachments/assets/d7de0dc3-d009-44c5-9372-96042215d785)
 
 
 
