@@ -18,3 +18,15 @@
 
 ![image](https://github.com/user-attachments/assets/71414a14-c1fb-4d07-ba24-d7d16e00b3cb)
 >The 3rd story file is now completely gone.
+
+<br><br>
+# Main Lab
+
+1. Let's find out who authored what on the branch:
+![image](https://github.com/user-attachments/assets/fe458c71-11cc-43d4-b007-d342d65b8233)
+```
+git log --name-only
+```
+![image](https://github.com/user-attachments/assets/bd78f2e0-403b-400b-901e-0e092e79f84d)
+>Sarah modified 5 stories
+
