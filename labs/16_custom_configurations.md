@@ -1,4 +1,4 @@
-# Lab 10: Custom Configurations
+# Lab 16: Custom Configurations
 
 Git offers extensive customization options. In **Lab 10**, learn how to set up aliases, hooks, and other tweaks to enhance your workflow.
 
