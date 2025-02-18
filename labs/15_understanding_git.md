@@ -13,3 +13,7 @@
 >You can also cat-file the commit hash.
 
 ![image](https://github.com/user-attachments/assets/9b7cc56d-cf49-4aa7-8d6c-61b268b112e1)
+
+![image](https://github.com/user-attachments/assets/b3895874-5315-499c-8b6e-7c9efdb9782c)
+
+![image](https://github.com/user-attachments/assets/f266f5a3-6b5e-44ce-a105-21d8fb406598)
