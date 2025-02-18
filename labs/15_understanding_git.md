@@ -6,3 +6,5 @@
 
 ![image](https://github.com/user-attachments/assets/8869d82a-736d-4f47-923e-8f2581ab9496)
 
+![image](https://github.com/user-attachments/assets/ba80528c-2fd4-43d0-b42d-03dcba57f97d)
+>We can pretty print with the cat-file, and only the 1st five characters of the hash are needed.
