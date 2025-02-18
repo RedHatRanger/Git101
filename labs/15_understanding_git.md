@@ -8,3 +8,6 @@
 
 ![image](https://github.com/user-attachments/assets/29c2e4bc-6dc1-4924-a227-2f1cb71d9ffc)
 >We can pretty print with the cat-file, and only the 1st five characters of the hash are needed.
+
+![image](https://github.com/user-attachments/assets/92de275b-270b-423e-a8f6-65460f248e3c)
+>You can also cat-file the commit hash.
