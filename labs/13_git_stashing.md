@@ -12,3 +12,6 @@
 
 ![image](https://github.com/user-attachments/assets/4107c74f-319e-4a1e-8973-c222c9d92f08)
 >You can see that git stash is like storing library books.
+
+![image](https://github.com/user-attachments/assets/0fc05788-a73b-460f-9794-f4b38afde4d1)
+>To view everything that's in Stash.
