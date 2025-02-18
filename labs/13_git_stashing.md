@@ -56,3 +56,13 @@ git stash pop stash@{0}
 
 ![image](https://github.com/user-attachments/assets/db51f4bc-4140-47b9-bc31-fcf3a0500049)
 >There are 3 stashed stories!
+
+<br><br>
+5. Figure out what files were stashed:
+![image](https://github.com/user-attachments/assets/203e6e4d-fb5c-4642-ba40-17b90a8cfab7)
+```
+git stash show stash@{0} ; git stash show stash@{1}; git stash show stash@{2}
+```
+>Answer: story3.txt, story2.txt, and story1.txt
+
+* Done!
