@@ -65,4 +65,11 @@ git stash show stash@{0} ; git stash show stash@{1}; git stash show stash@{2}
 ```
 >Answer: story3.txt, story2.txt, and story1.txt
 
+```
+git stash pop
+```
+>story3.txt is now staged.
+
+
+
 * Done!
