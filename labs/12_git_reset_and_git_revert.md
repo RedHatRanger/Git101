@@ -22,11 +22,12 @@
 <br><br>
 # Main Lab
 
-1. Let's find out who authored what on the branch:
+1. Let's find out how many stories sarah altered in that last commit:
 ![image](https://github.com/user-attachments/assets/fe458c71-11cc-43d4-b007-d342d65b8233)
 ```
 git log --name-only
 ```
 ![image](https://github.com/user-attachments/assets/bd78f2e0-403b-400b-901e-0e092e79f84d)
->Sarah modified 5 stories
+>Sarah altered 5 stories
+
 
