@@ -30,4 +30,29 @@
 git stash
 git stash list
 ```
+<br><br>
+2. Now Sarah can checkout the master branch to fix the typo in `lion-and-mouse.txt`:
+![image](https://github.com/user-attachments/assets/f61d7749-2218-436e-a3ca-642e177b6ba8)
+```
+cd story-blog
+git checkout main
+vim lion-and-mouse.txt
+git add lion-and-mouse.txt
+git commit -m "Fixed title error"
+```
 
+<br><br>
+3. Now let's move the stashed commit back to the staging area:
+![image](https://github.com/user-attachments/assets/ffe3960b-3287-4d22-94a4-4a971aa645c7)
+```
+git checkout story/frogs-and-ox
+git stash list
+git stash pop stash@{0}
+```
+
+<br><br>
+4. Find the list of stories that were stashed:
+![image](https://github.com/user-attachments/assets/8eec01eb-217b-4f80-a9b7-d2aa9c9ca26f)
+
+![image](https://github.com/user-attachments/assets/db51f4bc-4140-47b9-bc31-fcf3a0500049)
+>There are 3 stashed stories!
