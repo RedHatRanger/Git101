@@ -19,3 +19,15 @@
 ![image](https://github.com/user-attachments/assets/b9dadebc-6b56-4001-90d5-9990d89d2cb2)
 >To pop a specific Stash.
 
+# Main Lab
+
+<br><br>
+1. Help Sarah stash her current changes before heading over to the master branch to fix the typo:
+![image](https://github.com/user-attachments/assets/e7b06dee-d362-4ca2-a770-0d128209e137)
+![image](https://github.com/user-attachments/assets/5be845bf-8eda-4fab-a49c-476ec7173e45)
+
+```
+git stash
+git stash list
+```
+
