@@ -11,6 +11,9 @@
 
 ![image](https://github.com/user-attachments/assets/66879c3b-e506-4faa-8026-2b8643b37d49)
 
+<br><br>
+>You can also rebase INTERACTIVELY:
+
 ![image](https://github.com/user-attachments/assets/fb2f67c2-5f32-4b49-a4fc-0e06d6cb01ea)
 
 ![image](https://github.com/user-attachments/assets/9d5c70fb-9808-4f84-815c-cdac7af067c0)
