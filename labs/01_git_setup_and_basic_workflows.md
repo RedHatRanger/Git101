@@ -79,15 +79,24 @@ You should see a version number, e.g. `git version 2.x.x`.
    git config --global user.email "you@example.com"
    ```
 
-2. **Optional: Validate your entries**:
+2. ** Optional: To get the git bash prompt:
+cat << EOF >> ~/.bashrc
+```bash
+source /usr/share/git-core/contrib/completion/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
+```
+
+3. **Optional: Validate your entries**:
    ```bash
    git config --global --list
    ```
-3. **Optional: Edit your Git config**:
+4. **Optional: Edit your Git config**:
    ```bash
    git config --global --edit
    ```
-4. **Optional: Unset a config value**:
+5. **Optional: Unset a config value**:
    ```bash
    git config --global --unset user.name
    ```
