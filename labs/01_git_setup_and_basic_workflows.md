@@ -79,7 +79,7 @@ You should see a version number, e.g. `git version 2.x.x`.
    git config --global user.email "you@example.com"
    ```
 
-2. ** Optional: To get the git bash prompt:
+2. **Optional: To get the git bash prompt:
 cat << EOF >> ~/.bashrc
 ```bash
 source /usr/share/git-core/contrib/completion/git-prompt.sh
