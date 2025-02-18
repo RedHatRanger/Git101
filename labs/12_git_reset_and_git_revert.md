@@ -1,4 +1,4 @@
-***"To master a new technology, you will have to play with it." – Jordan Peterson***
+***"One big reason for a winning attitude is that you will take the necessary steps and not quit when the going gets difficult." – Don M.Green***
 <br><br>
 
 # Lab 12: Git Reset and Git Revert
