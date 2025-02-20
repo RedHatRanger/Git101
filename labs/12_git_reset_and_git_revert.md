@@ -10,10 +10,11 @@
 <br><br>
 ![image](https://github.com/user-attachments/assets/dc9524da-362f-4449-8f47-dc7b97d07af4)
 
+<br><br>
 >The soft reset will let you keep all the changes you made.
 ![image](https://github.com/user-attachments/assets/44da4c30-7418-4523-b3d7-d3bd434f45dc)
 
-
+<br><br>
 >But if we reset with the hard reset, the commit will be reset without saving all those changes.
 ![image](https://github.com/user-attachments/assets/71414a14-c1fb-4d07-ba24-d7d16e00b3cb)
 
