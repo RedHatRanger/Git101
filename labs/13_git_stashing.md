@@ -30,9 +30,9 @@
 
 1. **Overview**
 
+>Basic idea of using stash:
 ![image](https://github.com/user-attachments/assets/d5b25b33-fe77-4c07-bb3a-b0220abe0d27)
 
-   This image shows the basic idea of stashing.
 
 2. **Stash to Stash Area**
 
