@@ -30,11 +30,6 @@ git revert HEAD~0
 ```
 ![image](https://github.com/user-attachments/assets/6a930706-8e72-4a73-ad65-0a0f9a99c433)
 
-<br><br>
-3. 
-
-<br><br>
-4. 
 
 <br><br>
 5. Help Sarah revert the last commit but retain the unfinished changes so she can finish her story:
@@ -58,7 +53,6 @@ git commit -m "Finished hare-and-tortoise story"
 ```
 git reset --hard HEAD~3
 ```
-![image](https://github.com/user-attachments/assets/63947dd5-0f52-4926-ba72-dc91c6db63c6)
 
 * Done
 
