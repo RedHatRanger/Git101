@@ -11,7 +11,7 @@
 ![image](https://github.com/user-attachments/assets/e776eb96-121e-4059-9f73-352294418164)
 ![image](https://github.com/user-attachments/assets/499fffd7-7553-489e-bcb5-38af95f89539)
 
-## Quick Review
+## Quick Review of Previous Labs
 - **Lab 2**: We learned about **branches**—little paths off of the main path.
 - **Lab 3**: We learned about **merging** those branches back together.
 
