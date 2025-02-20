@@ -19,7 +19,7 @@
 
 ---
 
-## Quick Review
+## Quick Review of Previous Lab
 - In **Lab 1**, we set up Git, learned how to make commits, and track changes to our files.
 - In **Lab 2**, we’ll learn about **branches**—like creating different storylines so we don’t mess up the main story if we make a mistake or want to experiment.
 
