@@ -1,7 +1,7 @@
 ***"You can’t go back and change the beginning, but you can start where you are and change the ending." – C.S. Lewis***
 <br><br>
 
-# Lab 9: Git Rebasing
+# Lab 10: Git Rebasing
 ![image](https://github.com/user-attachments/assets/7b6f275c-acdb-446b-86ce-f8ac136c829f)
 
 ![image](https://github.com/user-attachments/assets/032155ca-7116-4473-89ca-02e517f5d6d6)
@@ -132,4 +132,4 @@ git log --oneline
 
 ![image](https://github.com/user-attachments/assets/4b7d081a-0393-40e2-be49-edb89851ffd6)
 
-* Done
+*
