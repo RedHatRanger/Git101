@@ -30,7 +30,7 @@ Think of a Git branch like a **fork** in a road. Instead of everybody walking on
 
 ---
 
-## Step-by-Step Example (Keeping the Original Story Verbatim)
+## Step-by-Step Example
 
 Below is the exact example scenario with code steps, just like before, but we’ll explain it in **kid-friendly language**.
 
