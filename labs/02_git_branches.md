@@ -1,14 +1,31 @@
 ***"Talk is cheap. Show me the code." — Linus Torvalds***
 <br><br>
 
+# Lab 2: Git Branches (5th Grader Edition)
 
-# Lab 2: Git Branches
-![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc) ![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00) ![image](https://github.com/user-attachments/assets/e8eb3868-d91f-48b6-84dc-2c0d86694390) ![image](https://github.com/user-attachments/assets/13124f19-b9fa-4330-a545-7869ae9f43fb) ![image](https://github.com/user-attachments/assets/15409879-112b-4aa3-916e-9ec9357f7ecb) ![image](https://github.com/user-attachments/assets/fca6afe7-a819-4980-a4eb-53d8d022ac1b) ![image](https://github.com/user-attachments/assets/9e7ffaf2-1372-4d69-9016-472b09d2a426) ![image](https://github.com/user-attachments/assets/1042e3c6-cbf2-47ce-a627-9977eea6939a) ![image](https://github.com/user-attachments/assets/687bfd05-3178-4e36-9c93-7379bcf5e6e6) ![image](https://github.com/user-attachments/assets/eca726ae-f05d-478e-8d96-87d9a81e1a0e) ![image](https://github.com/user-attachments/assets/0dabc748-1923-4220-bea0-66492e1ea28e)
+![image](https://github.com/user-attachments/assets/5e5c7023-217e-4c5c-812a-ff06092eefdc)
+![image](https://github.com/user-attachments/assets/74f1d8d4-f126-4c48-ad65-a6b557cb9b00)
+![image](https://github.com/user-attachments/assets/e8eb3868-d91f-48b6-84dc-2c0d86694390)
+![image](https://github.com/user-attachments/assets/13124f19-b9fa-4330-a545-7869ae9f43fb)
+![image](https://github.com/user-attachments/assets/15409879-112b-4aa3-916e-9ec9357f7ecb)
+![image](https://github.com/user-attachments/assets/fca6afe7-a819-4980-a4eb-53d8d022ac1b)
+![image](https://github.com/user-attachments/assets/9e7ffaf2-1372-4d69-9016-472b09d2a426)
+![image](https://github.com/user-attachments/assets/1042e3c6-cbf2-47ce-a627-9977eea6939a)
+![image](https://github.com/user-attachments/assets/687bfd05-3178-4e36-9c93-7379bcf5e6e6)
+![image](https://github.com/user-attachments/assets/eca726ae-f05d-478e-8d96-87d9a81e1a0e)
+![image](https://github.com/user-attachments/assets/0dabc748-1923-4220-bea0-66492e1ea28e)
 
 (photos by: kodekloud.com)
 
-<br><br><br><br>
-# Lab 2: Branching in Git (5th Grader Edition)
+---
+
+## Quick Review:
+Lab 1
+Remember how we set up Git, learned how to make commits, and track changes to our files? That was **Lab 1**. Now, let’s build on that!
+
+In **Lab 2**, we’ll learn about **branches**—like creating different storylines so we don’t mess up the main story if we make a mistake or want to experiment.
+
+---
 
 ## What is a Git Branch?
 Think of a Git branch like a **fork** in a road. Instead of everybody walking on the same path, you can explore a different path and come back to join the main road later, **without messing up** what’s happening on the main road. This is super helpful when you want to test new ideas or fix something without breaking everything!
@@ -31,9 +48,7 @@ Think of a Git branch like a **fork** in a road. Instead of everybody walking on
 ---
 
 ## Step-by-Step Example
-
 Below is the exact example scenario with code steps, just like before, but we’ll explain it in **kid-friendly language**.
-
 
 ### What is a Git Branch?
 - A ***Git branch*** is a movable pointer to a specific commit, i.e. it allows you develop features and fixes independently from the main codebase (master branch).
@@ -88,7 +103,6 @@ main-placeholder
 EOF
 
 
-
 git log --name-only
 # You should see lion-and-mouse.txt
 
@@ -97,11 +111,9 @@ git log --name-only
 git checkout -b story/frogs-and-ox
 
 
-
 # Use git log to see where the HEAD is pointing now:
 git log
 # You can see the HEAD is now pointing to the new branch story/frogs-and-ox
-
 
 
 # Let's add the frogs-and-ox.txt:
@@ -120,7 +132,6 @@ The old Frog soon missed the little one and asked his brothers and sisters what 
 
 "Oh, much ...."
 EOF
-
 
 
 # Uh oh...Max calls and interrupts the development...we need to stage and commit the incomplete story to the master branch:
