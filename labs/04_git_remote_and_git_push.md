@@ -1,95 +1,7 @@
 ***"Without Git, software development would just be a bunch of people overwriting each other’s files." – Linus Torvalds***
 <br><br>
 
-
-# Lab 4: Working with Remotes
-![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0) ![image](https://github.com/user-attachments/assets/0dc19ba3-d044-4081-abb7-0e33af541627) ![image](https://github.com/user-attachments/assets/3aefaf69-ed0e-4994-b83b-834cbae0275e) ![image](https://github.com/user-attachments/assets/ac18bc45-77f6-4083-b72c-e2b35567196a) ![image](https://github.com/user-attachments/assets/8e509219-b045-429d-bda1-3fc29ca76d1b) ![image](https://github.com/user-attachments/assets/e776eb96-121e-4059-9f73-352294418164) ![image](https://github.com/user-attachments/assets/499fffd7-7553-489e-bcb5-38af95f89539) 
-
-
-
-In **Lab 4**, you'll learn how to connect local repositories to remote servers (like GitHub, GitLab, or Bitbucket), push and pull changes, and collaborate more effectively.
-
----
-
-## Objectives
-
-  I. Add a remote to your local repository \
- II. Push local changes to a remote repository \
-III. Pull changes from the remote to your local machine \
- IV. Understand basic remote-tracking branches 
-
-<br><br><br><br>
-
-## I. Adding a Remote Repo
-- Create a repository on GitHub (or similar), called `story-blog`.
-- Click `Code` and copy the URL `http://.../.../story-blog.git`.
-- In your local repo:
-  ```bash
-  git remote add origin https://github.com/<your-username>/story-blog.git
-  ```
-
-Verify:
-```bash
-git remote -v
-```
-
-<br><br>
-## II. Pushing Changes
-1. Push your local `master` branch to the remote:
-```bash
-git push -u origin master
-
-# Enter the Username and Password if prompted
-# Tip: to avoid having to type in the credentials each time, consider adding your local machine's SSH keys to GitHub or Gitea
-```
-
-2. After the first push, you can simply use:
-```bash
-git push
-```
-
-3. Verify on GitHub (or your remote) that your files have appeared.
-![image](https://github.com/user-attachments/assets/f7a15c68-3a77-4a0c-b846-73c87a741518)
-
-
-<br><br>
-## III. Pulling Changes
-
-If changes were made remotely by you or teammates:
-```bash
-git pull
-```
->This fetches and merges remote commits into your local branch.
-
-<br><br>
-## IV. Working with Remote-Tracking Branches
-
-When you create a new local branch and want to track it remotely:
-```bash
-git checkout -b feature/new-ui
-git push -u origin feature/new-ui
-```
->Now your local `feature/new-ui` branch is linked to `origin/feature/new-ui`.
-
-<br><br>
-## Summary
-You can now collaborate via GitHub (or other hosting platforms), ensuring all team members stay in sync. Remote repositories form the backbone of distributed version control.
-
-<br><br>
-**Next:** [Lab 5: Undoing Changes](05_undoing_changes.md)
-
-
-
-
-
-
-
-
-
-
 # Lab 4: Working with Remotes (Simplified for 5th Graders)
-
-> ***"Without Git, software development would just be a bunch of people overwriting each other’s files."*** — Linus Torvalds
 
 ![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0)
 ![image](https://github.com/user-attachments/assets/0dc19ba3-d044-4081-abb7-0e33af541627)
@@ -145,6 +57,7 @@ git push -u origin master
 ```
 - **`-u origin master`** means “Set the main branch (`master`) to upload to `origin` (the remote).”
 - Enter your username/password if asked.
+>Tip: to avoid having to type in the credentials each time, consider adding your local machine's SSH keys to GitHub or Gitea
 
 ### After That
 ```bash
@@ -193,6 +106,6 @@ With **remotes**, everyone can work on the same code from different computers, a
 
 ---
 
-## Next
-Ready to fix mistakes or step back in time with Git? Check out [Lab 5: Undoing Changes](05_undoing_changes.md).
+<br><br>
+**Next:** [Lab 5: Git Cloning](05_git_cloning.md)
 
