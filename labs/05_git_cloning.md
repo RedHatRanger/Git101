@@ -9,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/6d9f09e2-e167-4eef-92be-f814c16e2ce6)
 ![image](https://github.com/user-attachments/assets/5797dff3-cf11-4760-a912-390f574cb392)
 
-## Quick Review
+## Quick Review of Previous Labs
 - **Lab 1**: We got Git set up and learned the basics of saving changes (commits).
 - **Lab 2**: We created new branches (like separate pathways for new stories).
 - **Lab 3**: We merged our branch changes back into the main path.
