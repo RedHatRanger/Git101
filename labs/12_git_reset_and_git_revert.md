@@ -7,7 +7,7 @@
 ![image](https://github.com/user-attachments/assets/1f07ffc7-5613-4eb5-b086-46b66e033f26)
 
 <br><br>
->However, a `git reset --soft <commit-id>` will let you keep the file and all the changes you made.
+>However, a `git reset --soft <commit-id>` or `git reset --soft HEAD~1` will let you keep the file and all the changes you made.
 ![image](https://github.com/user-attachments/assets/dc9524da-362f-4449-8f47-dc7b97d07af4)
 
 <br><br>
