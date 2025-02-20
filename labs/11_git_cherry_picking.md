@@ -9,7 +9,6 @@
 ![image](https://github.com/user-attachments/assets/527a9d0f-2b5d-4d78-ab31-9133ecaf93db)
 ![image](https://github.com/user-attachments/assets/8ca93169-7339-4284-801c-f8f855bc90b9)
 ![image](https://github.com/user-attachments/assets/1b32028b-5cb3-48c3-8f1f-c1145ed33c14)
-![image](https://github.com/user-attachments/assets/55b9506f-64a8-4dd7-8607-efe285980ee4)
 
 
 ## Quick Review of Previous Labs
