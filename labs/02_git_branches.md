@@ -50,6 +50,7 @@ Below is the exact example scenario with code steps, just like before, but we’
 
 ```bash
 mkdir -p Projects/story-blog
+mkdir -p Projects/website
 cd Projects/story-blog
 
 
@@ -253,9 +254,4 @@ git commit -m "<commit_message>"
 Branches let you do your own thing without messing up other things. When you’re ready, you **merge** it back in. If there’s a fight (a conflict), you fix it by deciding how the combined code should look.
 
 That’s it! You’re branching like a pro, even in 5th grade.
-
-
-
-## Summary
-Branching lets you develop features or fixes independently without disrupting the main codebase. Merge back when ready, and handle conflicts as needed.
 
