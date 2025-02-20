@@ -1,89 +1,3 @@
-
-# Main Lab
-![image](https://github.com/user-attachments/assets/c46274ad-5879-4a4b-8438-194a712ff010)
-
-![image](https://github.com/user-attachments/assets/5579f4e3-0338-4f61-9619-a20476c156f9)
-
-![image](https://github.com/user-attachments/assets/63155186-2e62-4111-b085-4827c87d0e61)
-
-<br><br>
-1. Let's pull the changes from the remote repository:
-![image](https://github.com/user-attachments/assets/46ded33d-b969-48c7-ae86-82cff81a83e4)
-
-```
-cd ~/story-blog
-git checkout master
-git pull origin master
-```
-![image](https://github.com/user-attachments/assets/2d31fdd9-943e-4cdf-9f22-e83d51d94f69)
-
-![image](https://github.com/user-attachments/assets/73623d30-fb2c-4b4f-a2a8-67950a778262)
-
-<br><br>
-2. How many commits are in the `story/hare-and-tortoise`:
-```
-git log story/tortoise-and-hare
-```
-![image](https://github.com/user-attachments/assets/17622785-0017-4318-b495-a6c9c86afa75)
-
->Answer: 5
-
-<br><br>
-3. Rebase the `story/hare-and-tortoise` branch on top of `master`:
-![image](https://github.com/user-attachments/assets/de3c9f52-d9aa-449f-86bf-8bf7a543dd27)
-
-```
-git checkout story/hare-and-tortoise
-git rebase master
-```
-
-![image](https://github.com/user-attachments/assets/e3c36427-0e00-4c48-85e7-16b94b7648f7)
-
-
-![image](https://github.com/user-attachments/assets/904418e6-23f1-42db-bfaf-17291de48721)
-
-![image](https://github.com/user-attachments/assets/8851a8ce-dddc-42cc-8d54-6504bb20b70b)
-
-```
-git log --oneline
-git rebase -i HEAD~3
-
-# squash the bottom two commits by replacing pick with squash. Then save the file.
-
-git log --oneline
-```
-![image](https://github.com/user-attachments/assets/4b1b2efe-0146-4330-99be-252e0bde8cd0)
-
-![image](https://github.com/user-attachments/assets/4b7d081a-0393-40e2-be49-edb89851ffd6)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ***"You can’t go back and change the beginning, but you can start where you are and change the ending." – C.S. Lewis***
 <br><br>
 
@@ -204,6 +118,7 @@ Now you have 3 commits in this branch. Let’s see how to squash them:
 
 ### Squashing the 3 Commits
 ```bash
+git log --oneline
 git rebase -i HEAD~3
 ```
 
@@ -222,6 +137,9 @@ git rebase -i HEAD~3
 3. Save and exit. Git will combine all three commits into **one**. You can also update the commit message.
 
 That’s it—your commit history is now tidier!
+```
+git log --oneline
+```
 
 1. **Rebase**: Moves your commits to start after the main branch’s tip, keeping your timeline straight.
 2. **Interactive Rebase**: Lets you reorder or squash commits.
