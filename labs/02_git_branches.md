@@ -22,7 +22,7 @@
 <br><br><br><br>
 
 ```
-mkdir -p Projects/website
+mkdir -p Projects/story-blog
 cd Projects/story-blog
 
 
@@ -225,3 +225,202 @@ Branching allows parallel development without disrupting the main codebase. In t
 <br><br>
 
 **Next:** [Lab 3: Merging Branches](03_git_branch_merging.md)
+
+# Lab 2: Git Branches
+
+### What is a Git Branch?
+- A ***Git branch*** is a movable pointer to a specific commit, i.e. it allows you develop features and fixes independently from the main codebase (master branch).
+
+
+## Objectives
+
+1. Create and switch between branches
+2. Understand best practices for branch naming
+3. Merge simple changes back into the main branch
+4. Resolve basic merge conflicts
+
+<br><br><br><br>
+
+```
+mkdir -p Projects/story-blog
+cd Projects/story-blog
+
+
+# Let's prepare the lab for the lion-and-mouse.txt:
+cat << EOF > lion-and-mouse.txt
+--------------------------------------------
+      THE LIOON AND THE MOUSE
+--------------------------------------------
+
+A Lion lay asleep in the forest, his great head resting on his paws.
+
+A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose.
+
+Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her.
+
+"Spare me!" begged the poor Mouse. "Please let me go and some day I will surely repay you."
+
+The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.
+
+Some days later, while stalking his prey in the forest, the Lion was caught in the toils of a hunter's net.
+
+Unable to free himself, he filled the forest with his angry roaring.
+
+The Mouse knew the voice and quickly found the Lion struggling in the net.
+
+Running to one of the great ropes that bound him, she gnawed it until it parted, and soon the Lion was free.
+
+"You laughed when I said I would repay you," said the Mouse. "Now you see that even a Mouse can help a Lion."
+EOF
+
+
+# Setup the main.html file:
+cat << EOF > ../website/main.html
+main-placeholder
+EOF
+
+
+
+git log --name-only
+# You should see lion-and-mouse.txt
+
+
+#Let's create and switch to a new branch "story/frogs-and-ox":
+git checkout -b story/frogs-and-ox
+
+
+
+# Use git log to see where the HEAD is pointing now:
+git log
+# You can see the HEAD is now pointing to the new branch story/frogs-and-ox
+
+
+
+# Let's add the frogs-and-ox.txt:
+cat << EOF > frogs-and-ox.txt
+--------------------------------------------
+      THE FROGS AND THE OX
+--------------------------------------------
+
+An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud.
+
+The old Frog soon missed the little one and asked his brothers and sisters what had become of him.
+
+"A great big monster," said one of them, "stepped on little brother with one of his huge feet!"
+
+"Big, was he!" said the old Frog, puffing herself up. "Was he as big as this?"
+
+"Oh, much ...."
+EOF
+
+
+
+# Uh oh...Max calls and interrupts the development...we need to stage and commit the incomplete story to the master branch:
+git add frogs-and-ox.txt
+git commit -m "Add incomplete frogs-and-ox story"
+
+
+# Now, let's switch to the master branch:
+git checkout master
+
+# Let's fix the misspelled "LIOON" in the lion-and-mouse.txt:
+sed -i 's/LIOON/LION/g' lion-and-mouse.txt
+
+# Commit the changes to the master:
+git add lion-and-mouse.txt; git commit -m "Fix typo in story title"
+
+# Switch back to the /frogs-and-ox branch
+git checkout story/frogs-and-ox
+
+# Sarah has now finished her incomplete story:
+cat << EOF > frogs-and-ox.txt
+--------------------------------------------
+      THE FROGS AND THE OX
+--------------------------------------------
+
+An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud.
+
+The old Frog soon missed the little one and asked his brothers and sisters what had become of him.
+
+"A great big monster," said one of them, "stepped on little brother with one of his huge feet!"
+
+"Big, was he!" said the old Frog, puffing herself up. "Was he as big as this?"
+
+"Oh, much bigger!" they cried.
+
+The Frog puffed up still more.
+
+"He could not have been bigger than this," she said.
+
+But the little Frogs all declared that the monster was much, much bigger and the old Frog kept puffing herself out more and more until, all at once, she burst.
+EOF
+
+
+# Commit the new changes:
+git add frogs-and-ox.txt; git commit -m "Completed frogs-and-ox story"
+
+
+# Next one:
+cd ../story-blog
+git init
+git branch feature/cart
+git branch feature/checkout
+git branch feature/signout
+git branch feature/signup
+git checkout feature/signout; git log --graph --decorate
+
+```
+
+## I. Creating a Branch
+```bash
+git branch
+# View current branches
+```
+```
+git branch feature/login
+# Create a new branch
+
+git checkout feature/login
+# Switch to it
+```
+OR
+<br><br>
+```
+# Or in one step:
+git checkout -b feature/login
+```
+
+## II. Making Changes on a Branch
+```bash
+echo "Login feature code" > login.md
+# Add/edit files
+
+git add login.md
+
+git commit -m "Implement basic login feature"
+# Stage and commit
+```
+
+## III. Merging into Main
+```bash
+git checkout main
+# Switch back to main
+
+git merge feature/login
+# Merge the feature branch
+
+git log --oneline --graph
+# Check history
+```
+
+## IV. Handling Simple Conflicts
+```bash
+# If there are conflicts, you'll see conflict markers.
+# Resolve them in the files, then:
+git add <conflicted-file>
+git commit
+```
+
+## Summary
+Branching lets you develop features or fixes independently without disrupting the main codebase. Merge back when ready, and handle conflicts as needed.
+
