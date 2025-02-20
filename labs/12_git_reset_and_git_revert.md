@@ -3,7 +3,7 @@
 
 # Lab 12: Git Reset and Git Revert (5th Grader Edition)
 
-## Samples
+### Samples
 >This will delete the third story but create a new commit. 
 ![image](https://github.com/user-attachments/assets/1f07ffc7-5613-4eb5-b086-46b66e033f26)
 
