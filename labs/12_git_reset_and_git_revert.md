@@ -2,9 +2,7 @@
 >We can still see the changes that were made with git status with a soft reset.
 
 ![image](https://github.com/user-attachments/assets/ad752b2d-3965-4a5b-84e3-cae50a630554)
->But if we reset with the hard reset, the commit will be reset without saving all those changes.
 
-![image](https://github.com/user-attachments/assets/71414a14-c1fb-4d07-ba24-d7d16e00b3cb)
 >The 3rd story file is now completely gone.
 
 <br><br>
@@ -93,7 +91,10 @@ git reset --hard HEAD~3
 
 
 ![image](https://github.com/user-attachments/assets/ad752b2d-3965-4a5b-84e3-cae50a630554)
+
+>But if we reset with the hard reset, the commit will be reset without saving all those changes.
 ![image](https://github.com/user-attachments/assets/71414a14-c1fb-4d07-ba24-d7d16e00b3cb)
+
 
 ## Quick Review of Previous Labs
 - **Lab 1**: We set up Git and saved our very first files.
