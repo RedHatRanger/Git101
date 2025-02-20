@@ -320,22 +320,22 @@ Keep exploring to learn more advanced topics like **merge conflicts**, **pull re
 
 For more advanced topics and hands-on practice, explore the following labs:
 
-- **[Lab 02: Git Branches](`02_git_branches.md`)** — Learn more about creating, switching, and managing branches.
-- **[Lab 03: Git Branch Merging](`03_git_branch_merging.md`)** — Dive deeper into different ways to merge branches.
-- **Lab 04: Git Remote and Push (`04_git_remote_and_git_push.md`)** — Set up remote repositories and learn to push your changes.
-- **Lab 05: Git Cloning (`05_git_cloning.md`)** — Master the process of cloning repositories.
-- **Lab 06: Git Pull Requests (`06_git_pull_requests.md`)** — Collaborate more efficiently on Git hosting platforms.
-- **Lab 07: Git Fetch and Git Pull (`07_git_fetch_and_git_pull.md`)** — Understand how to bring updates from remote repos.
-- **Lab 08: Git Merge Conflicts (`08_git_merge_conflicts.md`)** — Practice resolving merge conflicts.
-- **Lab 09: Git Forking (`09_git_forking.md`)** — Learn how to fork repositories and contribute to other projects.
-- **Lab 10: Git Rebasing (`10_git_rebasing.md`)** — Rewrite commit history for cleaner, linear project timelines.
-- **Lab 11: Git Cherry-Picking (`11_git_cherry_picking.md`)** — Selectively merge individual commits.
-- **Lab 12: Git Reset and Git Revert (`12_git_reset_and_git_revert.md`)** — Undo or revert changes in different ways.
-- **Lab 13: Git Stashing (`13_git_stashing.md`)** — Temporarily shelve changes without committing.
-- **Lab 14: Git Reflog (`14_git_reflog.md`)** — Track all actions in your Git repository.
-- **Lab 15: Understanding Git (`15_understanding_git.md`)** — Deepen your conceptual knowledge of Git internals.
-- **Lab 16: Custom Configurations (`16_custom_configurations.md`)** — Personalize your Git environment.
-- **Lab 17: Git Troubleshooting (`17_git_troubleshooting.md`)** — Learn to fix common issues and tricky scenarios.
+- **[Lab 02: Git Branches](02_git_branches.md)** — Learn more about creating, switching, and managing branches.
+- **[Lab 03: Git Branch Merging](03_git_branch_merging.md)** — Dive deeper into different ways to merge branches.
+- **[Lab 04: Git Remote and Push](04_git_remote_and_git_push.md)** — Set up remote repositories and learn to push your changes.
+- **[Lab 05: Git Cloning](05_git_cloning.md)** — Master the process of cloning repositories.
+- **[Lab 06: Git Pull Requests](06_git_pull_requests.md)** — Col[Laborate more efficiently on Git hosting platforms.
+- **[Lab 07: Git Fetch and Git Pull](07_git_fetch_and_git_pull.md)** — Understand how to bring updates from remote repos.
+- **[Lab 08: Git Merge Conflicts](08_git_merge_conflicts.md)** — Practice resolving merge conflicts.
+- **[Lab 09: Git Forking](09_git_forking.md)** — Learn how to fork repositories and contribute to other projects.
+- **[Lab 10: Git Rebasing](10_git_rebasing.md)** — Rewrite commit history for cleaner, linear project timelines.
+- **[Lab 11: Git Cherry-Picking](11_git_cherry_picking.md)** — Selectively merge individual commits.
+- **[Lab 12: Git Reset and Git Revert](12_git_reset_and_git_revert.md)** — Undo or revert changes in different ways.
+- **[Lab 13: Git Stashing](13_git_stashing.md)** — Temporarily shelve changes without committing.
+- **[Lab 14: Git Reflog](14_git_reflog.md)** — Track all actions in your Git repository.
+- **[Lab 15: Understanding Git](15_understanding_git.md)** — Deepen your conceptual knowledge of Git internals.
+- **[Lab 16: Custom Configurations](16_custom_configurations.md)** — Personalize your Git environment.
+- **[Lab 17: Git Troubleshooting](17_git_troubleshooting.md)** — Learn to fix common issues and tricky scenarios.
 
 Feel free to pick and choose topics based on what you need. Each lab builds on the basics you’ve just learned here!
 
