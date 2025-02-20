@@ -9,8 +9,7 @@
 (photos by: kodekloud.com)
 
 <br><br><br><br>
-# Lab 1: Git Setup & Basic Workflows
-# The Ultimate Beginner’s Guide to Git: A Kid-Friendly Tutorial
+# Lab 1: Git Setup & Basic Workflows (5th Grader Edition)
 
 If you’ve ever worked on a group project (like a class poster or a digital slideshow) and wished you could easily undo changes or see who did what, Git is the tool for you! Git is a version control system that helps you track changes to files, collaborate with teammates, and save different versions of your work. By the end of this tutorial, you’ll understand how to get Git set up and use it like a pro — no matter your age.
 
