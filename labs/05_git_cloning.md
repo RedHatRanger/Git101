@@ -1,5 +1,5 @@
 
-![image](https://github.com/user-attachments/assets/14f004f8-2dbb-4e38-bf34-3022ece1230f)
+
 
 
 
@@ -125,6 +125,7 @@ git commit -m "Added 'The End' to fox and grapes story"
 git log
 # Should show your commit with your new name and email.
 ```
+![image](https://github.com/user-attachments/assets/14f004f8-2dbb-4e38-bf34-3022ece1230f)
 
 ---
 
