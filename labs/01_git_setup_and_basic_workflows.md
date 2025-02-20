@@ -336,6 +336,7 @@ For more advanced topics and hands-on practice, explore the following labs:
 - **[Lab 15: Understanding Git](15_understanding_git.md)** — Deepen your conceptual knowledge of Git internals.
 - **[Lab 16: Custom Configurations](16_custom_configurations.md)** — Personalize your Git environment.
 - **[Lab 17: Git Troubleshooting](17_git_troubleshooting.md)** — Learn to fix common issues and tricky scenarios.
+- **[Lab 18: Git Command Glossary](18_git_command_glossary.md)** — A handy reference for quick definitions of common Git commands and what they do.
 
 Feel free to pick and choose topics based on what you need. Each lab builds on the basics you’ve just learned here!
 
