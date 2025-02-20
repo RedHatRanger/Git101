@@ -1,24 +1,10 @@
 
 
-# Lab 11: Git Cherry Picking
-![image](https://github.com/user-attachments/assets/c8a2eb1b-b440-493a-9d7b-520e53ae5a1e)
-
-![image](https://github.com/user-attachments/assets/3d7912b5-ffb4-48e4-aa68-576d4cb1e0e8)
-
-![image](https://github.com/user-attachments/assets/527a9d0f-2b5d-4d78-ab31-9133ecaf93db)
-
 >We now have a copy of that `Changed first story` commit on the `master` branch!
 
 <br><br>
 # Main Lab
-![image](https://github.com/user-attachments/assets/8ca93169-7339-4284-801c-f8f855bc90b9)
 
-![image](https://github.com/user-attachments/assets/1b32028b-5cb3-48c3-8f1f-c1145ed33c14)
-
-![image](https://github.com/user-attachments/assets/55b9506f-64a8-4dd7-8607-efe285980ee4)
-
-1. Let's identify one we want to cherry pick:
-![image](https://github.com/user-attachments/assets/251b2f76-efb7-4705-807c-4470b33d333f)
 ```
 git log master --oneline
 # f2ba941 Updated the story index file
@@ -28,9 +14,6 @@ git log master --oneline
 ```
 git cherry-pick f2ba941
 ```
-
-* Done!
-
 
 
 
@@ -56,6 +39,14 @@ git cherry-pick f2ba941
 
 ![image](https://github.com/user-attachments/assets/c8a2eb1b-b440-493a-9d7b-520e53ae5a1e)
 ![image](https://github.com/user-attachments/assets/3d7912b5-ffb4-48e4-aa68-576d4cb1e0e8)
+
+![image](https://github.com/user-attachments/assets/c8a2eb1b-b440-493a-9d7b-520e53ae5a1e)
+![image](https://github.com/user-attachments/assets/3d7912b5-ffb4-48e4-aa68-576d4cb1e0e8)
+![image](https://github.com/user-attachments/assets/527a9d0f-2b5d-4d78-ab31-9133ecaf93db)
+![image](https://github.com/user-attachments/assets/8ca93169-7339-4284-801c-f8f855bc90b9)
+![image](https://github.com/user-attachments/assets/1b32028b-5cb3-48c3-8f1f-c1145ed33c14)
+![image](https://github.com/user-attachments/assets/55b9506f-64a8-4dd7-8607-efe285980ee4)
+![image](https://github.com/user-attachments/assets/251b2f76-efb7-4705-807c-4470b33d333f)
 
 ## Quick Review of Previous Labs
 - **Lab 1**: We set up Git and saved our first files.
@@ -91,7 +82,7 @@ Let’s say we have two branches: `master` and `feature`. On `feature`, there’
 ```bash
 git log master --oneline
 ```
-From the images, we see a commit `f2ba941` titled “Updated the story index file” that we want on `master`.
+From the output, we see a commit `f2ba941` titled “Updated the story index file” that we want on `master`.
 
 ### 2. Cherry-Pick That Commit
 ```bash
@@ -121,7 +112,7 @@ In short, the pictures show you picking out exactly one commit from a list and b
 ## Summary
 1. **Cherry-Pick**: Copy exactly one commit from another branch into your current branch.
 2. **Use Cases**: If you only need one fix or one small feature, not everything else.
-3. **How**: Use `git log` to find the commit hash, then `git cherry-pick <hash>`.
+3. **How**: Use `git log` to find the commit hash, then `git cherry-pick <commit-id-hash>`.
 
 Cherry-picking is super helpful if you made a fix on the wrong branch or only want a specific fix from a friend’s branch. Good job learning to pick just the best pieces!
 
