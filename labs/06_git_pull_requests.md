@@ -13,7 +13,7 @@
 ![image](https://github.com/user-attachments/assets/e9030a38-8d37-4cda-8ad3-e2a9ee01bf9d)
 ![image](https://github.com/user-attachments/assets/1aee80a7-59f5-42dc-b04e-d550ba835c5b)
 
-## Quick Review
+## Quick Review of Previous Labs
 - **Lab 1**: We set up Git and learned how to make commits.
 - **Lab 2**: We branched our code to try out different “story” ideas.
 - **Lab 3**: We merged those branches back into the main road.
