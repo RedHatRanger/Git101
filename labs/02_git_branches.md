@@ -21,11 +21,9 @@
 
 ## Quick Review
 - In **Lab 1**, we set up Git, learned how to make commits, and track changes to our files.
+- In **Lab 2**, we’ll learn about **branches**—like creating different storylines so we don’t mess up the main story if we make a mistake or want to experiment.
 
-In **Lab 2**, we’ll learn about **branches**—like creating different storylines so we don’t mess up the main story if we make a mistake or want to experiment.
-
----
-
+<br><br>
 ## What is a Git Branch?
 Think of a Git branch like a **fork** in a road. Instead of everybody walking on the same path, you can explore a different path and come back to join the main road later, **without messing up** what’s happening on the main road. This is super helpful when you want to test new ideas or fix something without breaking everything!
 
