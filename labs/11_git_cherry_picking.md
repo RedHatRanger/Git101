@@ -1,37 +1,3 @@
-
-
->We now have a copy of that `Changed first story` commit on the `master` branch!
-
-<br><br>
-# Main Lab
-
-```
-git log master --oneline
-# f2ba941 Updated the story index file
-```
-
-2. Now, let's cherry pick that one:
-```
-git cherry-pick f2ba941
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ***"To master a new technology, you will have to play with it." – Jordan Peterson***
 <br><br>
 
@@ -95,11 +61,12 @@ Git **copies** that one commit (the changes and message) onto your current branc
 ### 3. Verify It Worked
 Check `git log --oneline` on `master` or open your changed file. You should see that single commit’s changes applied.
 
-> **Kid-Friendly**: You took just that special paragraph from your friend’s branch and pasted it into your branch.
+>We now have a copy of that `Changed first story` commit on the `master` branch!
+> Explanation: You took just that special paragraph from your friend’s branch and pasted it into your branch.
 
 ---
 
-## Understanding the Images
+## Understanding What Happened
 1. **Cherry-Pick Explanation**: The first images show the concept of copying a single commit from one branch to another.
 2. **Selecting the Commit**: You see an example `git log master --oneline`, then we pick the hash `f2ba941`.
 3. **Cherry-Pick Action**: We run `git cherry-pick f2ba941`, and Git copies that commit’s changes.
