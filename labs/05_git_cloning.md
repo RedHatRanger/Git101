@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ***"Question everything. Learn something. Answer nothing." – Euripides***
 <br><br>
 
@@ -160,4 +146,4 @@ git remote get-url --all origin
 
 ---
 
-**Next**: [Lab 6: Pull Requests](06_git_pull_requests.md)
+**Next**: [Lab 6: Git Pull Requests](06_git_pull_requests.md)
