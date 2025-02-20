@@ -26,43 +26,44 @@
 
 ---
 
-## Stashing (How-to)
+## How to Use Stash:
 
-1. **Overview**
+1. **Before Stash is executed:**
 
->Basic idea of using stash:
+>Here we typed git stash:
 ![image](https://github.com/user-attachments/assets/d5b25b33-fe77-4c07-bb3a-b0220abe0d27)
 
 
+<br><br>
 2. **Stash to Stash Area**
 
 >Temporarily move your files from the staging area (or working directory) into the “stash” so they aren’t committed yet.
 ![image](https://github.com/user-attachments/assets/4f1ecb72-00b1-4104-8dcd-38bf389dc37c)
 
-
+<br><br>
 3. **Get Changes Back**
 
+>You can **pop** or **apply** the stash to restore your changes.
 ![image](https://github.com/user-attachments/assets/cd912a14-ef90-4c87-9116-ee01297923ab)
 
-   You can **pop** or **apply** the stash to restore your changes.
-
+<br><br>
 4. **Stashing = Storing Books**
 
+>Think of a stash like a **library shelf**. You check out your changes later when you need them.
 ![image](https://github.com/user-attachments/assets/4107c74f-319e-4a1e-8973-c222c9d92f08)
 
-   Think of a stash like a **library shelf**. You check out your changes later when you need them.
-
+<br><br>
 5. **View Everything in Stash**
 
+>`git stash list` shows all stashes, like a list of library books you have.
 ![image](https://github.com/user-attachments/assets/0fc05788-a73b-460f-9794-f4b38afde4d1)
 
-   `git stash list` shows all stashes, like a list of library books you have.
-
+<br><br>
 6. **Pop a Specific Stash**
 
+`git stash pop stash@{2}` (for example) brings back that one stash.
 ![image](https://github.com/user-attachments/assets/b9dadebc-6b56-4001-90d5-9990d89d2cb2)
 
-   `git stash pop stash@{2}` (for example) brings back that one stash.
 
 ---
 
