@@ -7,7 +7,7 @@
 ![image](https://github.com/user-attachments/assets/c2727881-ffb1-4e9f-9391-2c02abf47e94)
 ![image](https://github.com/user-attachments/assets/f4e56dd4-efa2-4d3c-8d54-08f8937c574e)
 
-## Quick Review
+## Quick Review of Previous Labs
 - **Lab 1**: We learned to set up Git and make our first commits.
 - **Lab 2**: We created branches to safely work on new stories or features.
 - **Lab 3**: We merged our new branches back into the main branch.
