@@ -39,14 +39,10 @@ git revert HEAD~0
 ![image](https://github.com/user-attachments/assets/6a930706-8e72-4a73-ad65-0a0f9a99c433)
 
 <br><br>
-3. Quiz Question #2:
-![image](https://github.com/user-attachments/assets/b9284fd7-bc78-47e2-b334-74e90a24c347)
->Answer: --soft
+3. 
 
 <br><br>
-4. Quiz Question #3:
-![image](https://github.com/user-attachments/assets/ae45a6e4-e1ad-4d90-a6d1-2391d8ae7c70)
->Answer: --hard
+4. 
 
 <br><br>
 5. Help Sarah revert the last commit but retain the unfinished changes so she can finish her story:
@@ -152,6 +148,7 @@ We can see which files changed in each commit. Sarah changed **5** stories in he
 
 ```bash
 git revert HEAD~0
+
 # or: git revert <commit_id>
 ```
 
@@ -162,9 +159,17 @@ This creates a **new** commit that undoes the changes in the last commit. It’s
 ---
 
 ### 3. Soft Reset vs Hard Reset (Quiz #2 & #3)
+Quiz Question #2:
+![image](https://github.com/user-attachments/assets/b9284fd7-bc78-47e2-b334-74e90a24c347)
+>Answer: --soft
 
-- **`--soft`** reset: We move back, but we keep the changes in our working files (just not committed). So you can still fix them and commit again.
-- **`--hard`** reset: We move back, and we **lose** the changes entirely (like they never happened).
+Quiz Question #3:
+![image](https://github.com/user-attachments/assets/ae45a6e4-e1ad-4d90-a6d1-2391d8ae7c70)
+>Answer: --hard
+
+>Explanation:
+>**`--soft`** reset: We move back, but we keep the changes in our working files (just not committed). So you can still fix them and commit again.
+>**`--hard`** reset: We move back, and we **lose** the changes entirely (like they never happened).
 
 #### Example
 ```bash
@@ -175,7 +180,7 @@ git reset --hard HEAD~3
 # Moves back three commits and discards all changes.
 ```
 
-> **Kid-Friendly**: **Soft** reset is like stepping back in the story but saving your notes. **Hard** reset is throwing away the new pages you wrote.
+>Explanation: **Soft** reset is like stepping back in the story but saving your notes. **Hard** reset is throwing away the new pages you wrote.
 
 ---
 
