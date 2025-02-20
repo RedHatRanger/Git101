@@ -121,80 +121,83 @@ By completing this lab, you have learned how to navigate branches, check commit 
 ![image](https://github.com/user-attachments/assets/42a359c2-14a2-4895-80aa-7473f4366fd7)
 ![image](https://github.com/user-attachments/assets/ef80e53d-b661-4295-9518-7961cba71d47)
 
-## Introduction
-In **Lab 2**, you learned how to create new branches for different stories in your project:
-- **Lion and the Mouse** (on the main/master branch)
-- **Frogs and the Ox** (on a branch called `story/frogs-and-ox`)
+## Quick Review
+- In **Lab 2**, we made two stories:
+  - **“Lion and the Mouse”** (on the `master` branch)
+  - **“Frogs and the Ox”** (on `story/frogs-and-ox`)
 
-You also learned how to fix a typo on the main branch and then finish writing your story on the feature branch. **Now** it’s time to bring those changes together so everyone can see the new story on the main branch. In Git, that’s called a **merge**.
+- We also **fixed a typo** on `master`, then **finished** the new story on `story/frogs-and-ox`.
 
----
-
-## Objectives
-By the end of this lab, you will:
-1. **Switch between branches** using `git checkout`.
-2. **See what branches exist** using `git branch`.
-3. **Check commit histories** with `git log`.
-4. **Merge** the `story/frogs-and-ox` branch into `master`.
+Now it’s time to **combine** (merge) these changes so everything is on the main branch.
 
 ---
 
 ## Why Merge?
-Merging means you’re **combining** your work from one branch into another—like adding a new chapter to the same book. If you made a new story on `story/frogs-and-ox`, merging puts it back on the main branch, so everyone has the **latest** and **greatest** version.
+**Merging** is like **adding your side story** back into the **main story** so everyone can read it. If you keep your “Frogs and the Ox” story on a separate branch, nobody on the main branch knows about it. Once you merge, it’s all in one place!
 
 ---
 
-## Step-by-Step Instructions (Verbatim Code Snippets)
-Below are the **exact** commands from this lab, with some kid-friendly explanations:
+## Objectives
+1. **Switch** branches using `git checkout`.
+2. **See** your branches with `git branch`.
+3. **Check** your branch “history” with `git log`.
+4. **Merge** the story branch (`story/frogs-and-ox`) into the main branch (`master`).
 
-1. **Switch back to the master branch**:
-   ```bash
+---
+
+## Step-by-Step Instructions
+
+### 1. Go Back to the Main Road
+```bash
 git checkout master
 ```
-   Think of it like going back to the main road.
+This command moves you to the **master** branch. Picture leaving a side path and returning to the main road.
 
-2. **How many branches do we have?**
-   ```bash
+### 2. See Which Roads (Branches) Exist
+```bash
 git branch
 # Output:
 # * master
 #   story/frogs-and-ox
 ```
-   This shows two branches: `master` and `story/frogs-and-ox`.
+Here you see two branches:
+- `master` (that’s you, the star `*` means you’re standing here)
+- `story/frogs-and-ox`
 
-3. **Check the commit logs**:
-   ```bash
-# The new story Sarah wrote is in the story/frogs-and-ox branch.
-# It's time to merge the branch into master.
-# But first, look at the log of each branch to see how many commits each has.
+### 3. Look at the Past Commits (History)
+```bash
+# The "Frogs and the Ox" story is on story/frogs-and-ox.
+# We want to add that story to the master branch.
+# But first, let's see what happened on each branch so far:
 
 git log master
 git log story/frogs-and-ox
 ```
-   This is like looking at each branch’s journal entries.
+This is like reading each branch’s diary.
 
-4. **Time to merge** the `story/frogs-and-ox` branch into `master`:
-   ```bash
+### 4. Merge the Frog Story into Master
+```bash
 git merge story/frogs-and-ox -m "Merge branch 'story/frogs-and-ox'"
 ```
-   You’ve now combined the “Frogs and the Ox” story into the main branch!
+You’ve now **combined** the frog story into the `master` branch. Yay!
 
 ---
 
 ## Summary
+1. You **returned** to `master` (`git checkout master`)—think of that as the main road.
+2. You **listed** your branches (`git branch`) and found `master` plus `story/frogs-and-ox`.
+3. You **checked** both branch histories (`git log`)—like reading diaries for each one.
+4. You **merged** the frog story branch into `master` (`git merge story/frogs-and-ox`).
 
-1. **Switch to Master**: You hopped back onto the main road with `git checkout master`.
-2. **List Branches**: You saw there were two branches—`master` and `story/frogs-and-ox`.
-3. **Review Commit History**: You looked at each branch’s “timeline” with `git log`.
-4. **Merge**: You used `git merge` to bring `story/frogs-and-ox` into `master`, so now both stories are on the main branch.
-
-Merging is a crucial skill in Git because it allows many people (or just you!) to work on different parts of a project at the same time, then combine everything into one final place.
+Now you have **both** “Lion and the Mouse” **and** “Frogs and the Ox” on the same branch—`master`—where everyone can see them.
 
 ---
 
 ## Next Steps
-After you’ve merged your changes, you’re ready to explore more advanced Git features—like dealing with conflicts if you and someone else changed the **same** file. But for now, great job on learning to merge branches!
+Now that you’ve learned **merging**, you can explore **what happens if there’s a conflict** (like two people changing the same line). You’ll need to decide which version to keep—or mix them together. Great job merging branches!
 
 **Continue to:** [Lab 4: Merging Branches (Advanced)](04_git_remote_and_git_push.md)
+
+
 
 
