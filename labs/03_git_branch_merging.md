@@ -196,7 +196,7 @@ Now you have **both** “Lion and the Mouse” **and** “Frogs and the Ox” on
 ## Next Steps
 Now that you’ve learned **merging**, you can explore **what happens if there’s a conflict** (like two people changing the same line). You’ll need to decide which version to keep—or mix them together. Great job merging branches!
 
-**Continue to:** [Lab 4: Merging Branches (Advanced)](04_git_remote_and_git_push.md)
+**Continue to:** [Lab 4: Git Remote & Git Push](04_git_remote_and_git_push.md)
 
 
 
