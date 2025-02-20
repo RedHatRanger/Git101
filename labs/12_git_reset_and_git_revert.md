@@ -81,8 +81,9 @@ git reset --hard HEAD~3
 
 ![image](https://github.com/user-attachments/assets/1f07ffc7-5613-4eb5-b086-46b66e033f26)
 >This will delete the third story but create a new commit.
-<br><br>
+>However, a `git reset --soft <commit-id>` will let you keep the file.
 
+<br><br>
 ![image](https://github.com/user-attachments/assets/dc9524da-362f-4449-8f47-dc7b97d07af4)
 >The soft reset will let you keep all the changes you made.
 
