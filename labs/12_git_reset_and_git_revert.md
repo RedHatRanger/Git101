@@ -1,11 +1,3 @@
-
-
-# Lab 12: Git Reset and Git Revert
-![image](https://github.com/user-attachments/assets/1f07ffc7-5613-4eb5-b086-46b66e033f26) 
-
-
-
-
 ![image](https://github.com/user-attachments/assets/44da4c30-7418-4523-b3d7-d3bd434f45dc)
 >We can still see the changes that were made with git status with a soft reset.
 
@@ -93,7 +85,6 @@ git reset --hard HEAD~3
 
 # Lab 12: Git Reset and Git Revert (5th Grader Edition)
 
-![image](https://github.com/user-attachments/assets/50af2764-d831-4198-ab23-2b646ccb7118)
 ![image](https://github.com/user-attachments/assets/1f07ffc7-5613-4eb5-b086-46b66e033f26)
 >This will delete the story but create a new commit.
 <br><br>
