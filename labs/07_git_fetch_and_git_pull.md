@@ -19,6 +19,17 @@ Now, in **Lab 7**, we’ll explore **fetch** and **pull**. These commands help u
 
 ---
 
+## What is a Pull?
+Imagine your friend updated the story in a shared notebook. Now you want that new chapter in **your** notebook. **Pull** is the command that:
+
+1. **Finds** (fetches) your friend’s new chapter.
+2. **Adds** it (merges) into your notebook automatically.
+
+So you don’t have to do two separate steps.
+
+---
+
+<br><br>
 ## Lab Setup: Creating the "Donkey and the Little Dog" Story on the Remote
 1. **Go to GitHub** (or any Git remote hosting you’re using) in your **main** branch.
 2. **Create a new file** called `donkey-and-dog.txt` (or “The Donkey and the Little Dog”).
