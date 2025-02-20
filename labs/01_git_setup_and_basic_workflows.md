@@ -320,8 +320,8 @@ Keep exploring to learn more advanced topics like **merge conflicts**, **pull re
 
 For more advanced topics and hands-on practice, explore the following labs:
 
-- **Lab 02: Git Branches (`02_git_branches.md`)** — Learn more about creating, switching, and managing branches.
-- **Lab 03: Git Branch Merging (`03_git_branch_merging.md`)** — Dive deeper into different ways to merge branches.
+- **[Lab 02: Git Branches](`02_git_branches.md`)** — Learn more about creating, switching, and managing branches.
+- **[Lab 03: Git Branch Merging](`03_git_branch_merging.md`)** — Dive deeper into different ways to merge branches.
 - **Lab 04: Git Remote and Push (`04_git_remote_and_git_push.md`)** — Set up remote repositories and learn to push your changes.
 - **Lab 05: Git Cloning (`05_git_cloning.md`)** — Master the process of cloning repositories.
 - **Lab 06: Git Pull Requests (`06_git_pull_requests.md`)** — Collaborate more efficiently on Git hosting platforms.
