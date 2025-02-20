@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/42a359c2-14a2-4895-80aa-7473f4366fd7)
 ![image](https://github.com/user-attachments/assets/ef80e53d-b661-4295-9518-7961cba71d47)
 
-## Quick Review
+## Quick Review of Previous Labs
 - In **Lab 2**, we made two stories:
   - **“Lion and the Mouse”** (on the `master` branch)
   - **“Frogs and the Ox”** (on `story/frogs-and-ox`)
