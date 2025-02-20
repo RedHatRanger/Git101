@@ -36,9 +36,9 @@
 
 2. **Stash to Stash Area**
 
+>Temporarily move your files from the staging area (or working directory) into the “stash” so they aren’t committed yet.
 ![image](https://github.com/user-attachments/assets/4f1ecb72-00b1-4104-8dcd-38bf389dc37c)
 
-   Temporarily move your files from the staging area (or working directory) into the “stash” so they aren’t committed yet.
 
 3. **Get Changes Back**
 
