@@ -1,7 +1,7 @@
 ***"Without Git, software development would just be a bunch of people overwriting each other’s files." – Linus Torvalds***
 <br><br>
 
-# Lab 4: Working with Remotes (Simplified for 5th Graders)
+# Lab 4: Working with Remotes (5th Grader Edition)
 
 ![image](https://github.com/user-attachments/assets/f9400c6a-b5cd-4207-9cb2-0b6a00ab6fd0)
 ![image](https://github.com/user-attachments/assets/0dc19ba3-d044-4081-abb7-0e33af541627)
