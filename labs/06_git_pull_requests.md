@@ -1,46 +1,3 @@
-># The Setup
->- Be sure you still have the repo you cloned earlier from Lab 5.
-
-# Main Lab
-1. Let's create a new branch that max can work on safely without touching the main branch:
-```
-git checkout -b story/fox-and-grapes
-```
-
-<br><br>
-2. Make a slight change to the `fox-and-grapes.txt`, stage, then commit to the new branch:
-```
-git add fox-and-grapes.txt 
-git commit -m "Updated fox-and-grapes story"
-```
-
-<br><br>
-3. Push the committed changes to the new remote branch:
-```
-git push -u origin story/fox-and-grapes
-
-# You will have to enter the password if you didn't add SSH keys in GitHub
-```
-
-<br><br>
-4. Access GitHub, GitBucket, or Gitea's UI portal to submit a Pull Request (PR) to merge the changes to master:
-```
-PR title : Added fox-and-grapes story
-
-PR pull from branch: story/fox-and-grapes (source)
-
-PR merge into branch: master (destination)
-
-Add tom as reviewer through the Git Portal UI
-```
-
-> It should look something like this when you are finished:
-
-
-
-**Next:** [Lab 7: Git Fetch & Git Pull](07_git_fetch_and_git_pull.md)
-
-
 ***"One big reason for a winning attitude is that you will take the necessary steps and not quit when the going gets difficult." – Don M.Green***
 <br><br>
 
@@ -87,7 +44,7 @@ Here, we’re making a safe side path (branch) for our “fox-and-grapes” stor
 
 ---
 
-### 2. Update `fox-and-grapes.txt`, Stage, and Commit
+### 2. Make a slight change to the `fox-and-grapes.txt`, stage, then commit to the new branch
 ```bash
 git add fox-and-grapes.txt
 
@@ -112,9 +69,11 @@ Go to GitHub (or Gitea, etc.) and open a Pull Request:
 - **Into Branch**: `master` (destination)
 - **Request a Reviewer** (like “tom”)
 
-A PR says, “Please check my code. If it looks good, let’s merge it!”
+>
+> A PR says, “Please check my code. If it looks good, let’s merge it!”
+>
 
-- It should look like this when you are finished:
+> It should look something like this when you are finished:
 ![image](https://github.com/user-attachments/assets/27f4225f-e16d-44b2-8e84-033098201294)
 
 ---
