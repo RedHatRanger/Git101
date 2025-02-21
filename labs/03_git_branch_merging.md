@@ -11,7 +11,8 @@
 ![image](https://github.com/user-attachments/assets/ef80e53d-b661-4295-9518-7961cba71d47)
 
 ## Quick Review of Previous Labs
-- In **Lab 2**, we made two stories:
+- **Lab 1**, we set up Git, learned how to make commits, and track changes to our files
+- **Lab 2**, we made two stories:
   - **“Lion and the Mouse”** (on the `master` branch)
   - **“Frogs and the Ox”** (on `story/frogs-and-ox`)
 
