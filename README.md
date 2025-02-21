@@ -28,7 +28,9 @@ Now, your terminal will always tell you what Git branch you're on! 🌟
 
 ---
 
-## 🖥️ Make Git Show Your Branch in Windows
+## 🖥️ Make Git Show Your Branch in Windows 
+![image](https://github.com/user-attachments/assets/cd8731e9-41c0-40a1-a8c6-1501fe091d55)
+
 Want your **PowerShell** to tell you what branch you're on? Follow these steps:
 
 1️⃣ Open Notepad 📝 \
