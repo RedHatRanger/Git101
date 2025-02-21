@@ -9,6 +9,7 @@ Inside this Git101 repository, you'll find:
 
 ---
 
+<br><br>
 ## 🐧 Make Git Show Your Branch in Linux
 Want to see what Git branch you're on every time you use the terminal? Add this magic spell to your `~/.bashrc`:
 
