@@ -109,7 +109,8 @@ There are two main ways to start using Git:
 
 In any folder on your computer, run:
 ```bash
-git init
+git init testdir
+cd testdir
 ```
 This tells Git: “Start watching this folder for changes!” This folder is now a **repository**.
 
@@ -270,9 +271,8 @@ git config --global user.email "you@example.com"
 
 ### 4. Initialize a New Repository or Clone One
 ```bash
-mkdir my-first-git-project
+git init my-first-git-project  # or "git clone <URL>" if you have an existing repo
 cd my-first-git-project
-git init  # or "git clone <URL>" if you have an existing repo
 ```
 
 ### 5. Create, Stage, and Commit
