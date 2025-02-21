@@ -11,6 +11,8 @@ Inside this Git101 repository, you'll find:
 
 <br><br>
 ## 🐧 Make Git Show Your Branch in Linux
+![image](https://github.com/user-attachments/assets/52e80ee4-c539-4771-b629-5380a6158342)
+
 Want to see what Git branch you're on every time you use the terminal? Add this magic spell to your `~/.bashrc`:
 
 ### For RHEL, Fedora, Rocky, Centos Varieties
@@ -36,8 +38,6 @@ Then run:
 source ~/.bashrc
 ```
 Now, your terminal will always tell you what Git branch you're on! 🌟 \
-![image](https://github.com/user-attachments/assets/52e80ee4-c539-4771-b629-5380a6158342)
-
 
 ---
 
