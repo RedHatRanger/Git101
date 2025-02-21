@@ -3,6 +3,7 @@
 
 # Lab 15: 🏆 Understanding Git 🚀 (5th Grader Edition)
 
+>Porcelain vs. Plumbing Commands
 ![image](https://github.com/user-attachments/assets/0921076a-76b1-4154-a5a2-64f4f25c479a)
 ![image](https://github.com/user-attachments/assets/ce296839-7487-4e7b-a9d6-18e74699874e)
 
