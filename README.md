@@ -35,7 +35,7 @@ Then run:
 ```bash
 source ~/.bashrc
 ```
-Now, your terminal will always tell you what Git branch you're on! 🌟
+Now, your terminal will always tell you what Git branch you're on! 🌟 \
 ![image](https://github.com/user-attachments/assets/52e80ee4-c539-4771-b629-5380a6158342)
 
 
