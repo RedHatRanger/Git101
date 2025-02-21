@@ -1,3 +1,8 @@
+***"The only way to learn a new programming language is by writing programs in it." – Dennis Ritchie***
+<br><br>
+
+# Lab 15: 🏆 Understanding Git 🚀 (5th Grader Edition)
+
 ![image](https://github.com/user-attachments/assets/0921076a-76b1-4154-a5a2-64f4f25c479a)
 ![image](https://github.com/user-attachments/assets/ce296839-7487-4e7b-a9d6-18e74699874e)
 ![image](https://github.com/user-attachments/assets/64cf17a3-a5be-43c0-8533-4648f12e9592)
@@ -15,8 +20,8 @@
 
 ![image](https://github.com/user-attachments/assets/9b7cc56d-cf49-4aa7-8d6c-61b268b112e1)
 
-# Lab 15 - 🏆 Understanding Git 🚀
 
+## Main Lab
 Welcome to the **Understanding Git Lab!** Today, we’ll learn how Git stores your work and how we can peek inside Git’s secret folders! 🤩
 
 ---
@@ -59,7 +64,7 @@ Welcome to the **Understanding Git Lab!** Today, we’ll learn how Git stores yo
 
 ---
 
-## 🛠️ Step 3: Porcelain vs. Under-the-Hood Commands
+## 🛠️ Step 3: Porcelain vs. Plumbing Commands
 Git has two types of commands:
 - **Porcelain commands** (user-friendly, everyday commands):
   ```bash
