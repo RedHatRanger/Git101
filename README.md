@@ -1,4 +1,4 @@
-# 🚀 Git101: Let's Get Started with Git!
+# 🚀 Git101: Let's Get Started with Git! (5th Grader Edition)
 
 Hey there, future Git expert! Welcome to **Git101 Labs**, where you'll learn how to use Git and have fun while doing it! 🎉
 
