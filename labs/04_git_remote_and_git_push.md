@@ -29,6 +29,7 @@ A **remote** is an online copy of your Git project. You can **push** (send) your
 2. **Push** your local changes so they appear in the remote.
 3. **Pull** changes from the remote if others have updated the code.
 4. Learn how to make **new branches** that also live on the remote.
+5. [FAQ Section](
 
 ---
 
@@ -93,6 +94,75 @@ git push -u origin feature/new-ui
 ```
 
 Now your local `feature/new-ui` branch is linked with `origin/feature/new-ui`. When you **push** or **pull**, Git knows they go together.
+
+## V. Frequently Asked Questions
+## What Does `git push -u origin main` Mean?
+
+### Breaking It Down:
+
+```bash
+git push -u origin main
+```
+
+This command does a few things:
+
+1. **`git push`** – This sends your saved changes to a storage place on the internet (like GitHub).
+2. **`-u`** – This tells Git to remember where to send future changes.
+3. **`origin`** – This is the nickname for the online storage place (GitHub, for example).
+4. **`main`** – This is the name of the branch (like a folder) where your changes go.
+
+### What Happens When You Run This?
+- If the `main` branch doesn’t exist online yet, this makes it.
+- It remembers where to send future updates, so you don’t have to type as much next time.
+- Next time, you can just type `git push` or `git pull`, and Git will know what to do!
+
+### When Would You Use This?
+If you just started using Git and made a change, running:
+
+```bash
+git push -u origin main
+```
+
+will send your changes to GitHub and set it up so you can easily send more changes later.
+
+---
+
+## Does `git clone` Automatically Set `origin`?
+
+If you **copy** a project from GitHub using:
+
+```bash
+git clone <repository_url>
+```
+
+Git **automatically remembers** where it came from, so you **don’t** need to type:
+
+```bash
+git remote add origin <http link>
+```
+
+### How Do You Check If Git Remembers?
+
+After copying, check by typing:
+
+```bash
+git remote -v
+```
+
+You should see something like this:
+
+```
+origin  https://github.com/username/repository.git (fetch)
+origin  https://github.com/username/repository.git (push)
+```
+
+That means Git knows where your project lives online.
+
+### When Would You Need `git remote add origin`?
+You only need to do this if:
+1. You started a project on your computer using `git init` instead of copying one.
+2. You accidentally removed the connection and need to add it again.
+3. You want to change where your project is saved online (use `git remote set-url origin <new_url>` for that).
 
 ---
 
