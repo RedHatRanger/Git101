@@ -29,7 +29,7 @@ A **remote** is an online copy of your Git project. You can **push** (send) your
 2. **Push** your local changes so they appear in the remote.
 3. **Pull** changes from the remote if others have updated the code.
 4. Learn how to make **new branches** that also live on the remote.
-5. [FAQ Section](
+5. [FAQ Section](##_V._Frequently_Asked_Questions)
 
 ---
 
@@ -95,6 +95,7 @@ git push -u origin feature/new-ui
 
 Now your local `feature/new-ui` branch is linked with `origin/feature/new-ui`. When you **push** or **pull**, Git knows they go together.
 
+<br><br>
 ## V. Frequently Asked Questions
 ## What Does `git push -u origin main` Mean?
 
