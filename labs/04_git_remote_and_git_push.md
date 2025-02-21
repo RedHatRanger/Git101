@@ -178,5 +178,5 @@ With **remotes**, everyone can work on the same code from different computers, a
 ---
 
 <br><br>
-**Next:** [Lab 5: Git Cloning](05_git_cloning.md)
+**Next:** [Lab 5: More on Git Cloning](05_git_cloning.md)
 
