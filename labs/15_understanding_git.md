@@ -119,7 +119,7 @@ By running this command, you manually tell Git:
 
 # 🕵️‍♂️ Lab 3: Deep Dive into `reflog` and `cat-file`
 
-## 🔄 \*\*🚗⏳ \*\*\*\*\*\*Time Traveling with \*\*\*\*****`git reflog`****
+## 🔄 🚗⏳Time Traveling with `git reflog`
 
 Think of `git reflog` as Git’s time machine! If you ever lose a commit, `git reflog` can help you bring it back!
 
@@ -142,7 +142,7 @@ Now, let’s say you want to go back to the commit with **abc1234**, but your pr
 git reset --hard abc1234
 ```
 
-🚨 **Why not reset to ********************`xyz5678`********************?**
+🚨 **Why not reset to `xyz5678`?**
 
 - `xyz5678` represents a **reset action**, meaning you already moved backward to a previous commit.
 - If you reset to `xyz5678`, you'd just be keeping the rollback state without restoring the lost commit.
@@ -158,7 +158,7 @@ git reset --soft abc1234
 
 This keeps your changes but resets Git’s history to that commit!
 
-## 🕵️‍♂️ \*\*Investigating Git Objects with \*\***`git cat-file`**
+## 🕵️‍♂️ Lab 4: Investigating Git Objects with `git cat-file`
 
 This command lets you open and inspect Git objects (commits, blobs, and trees).
 
