@@ -13,11 +13,22 @@ Inside this Git101 repository, you'll find:
 ## 🐧 Make Git Show Your Branch in Linux
 Want to see what Git branch you're on every time you use the terminal? Add this magic spell to your `~/.bashrc`:
 
+### For RHEL, Fedora, Rocky, Centos Varieties
 ```bash
 source /usr/share/git-core/contrib/completion/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
-export PS1='[export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
+export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
+```
+
+### For Debian, Ubuntu, Arch, etc. Varieties
+```
+curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+source ~/.git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
+alias ll='ls -lah --color=auto'
 ```
 
 Then run:
