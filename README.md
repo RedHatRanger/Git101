@@ -23,6 +23,12 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
 ```
 
+Then run:
+```bash
+source ~/.bashrc
+```
+Now, your terminal will always tell you what Git branch you're on! 🌟
+
 <br>
 
 ### For Debian, Ubuntu, Arch, etc. Varieties
@@ -42,7 +48,7 @@ Then run:
 ```bash
 source ~/.bashrc
 ```
-Now, your terminal will always tell you what Git branch you're on! 🌟 \
+Now, your terminal will always tell you what Git branch you're on! 🌟
 
 ---
 
