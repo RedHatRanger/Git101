@@ -251,3 +251,5 @@ Branches let you do your own thing without messing up other things. When you’r
 
 That’s it! You’re branching like a pro, even in 5th grade.
 
+<br><br>
+**Next:** [Lab 3: Git Branch Merging](03_git_branch_merging.md)
