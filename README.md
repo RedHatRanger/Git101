@@ -22,7 +22,7 @@ export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$
 ```
 
 ### For Debian, Ubuntu, Arch, etc. Varieties
-```
+```bash
 curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=true
@@ -36,6 +36,8 @@ Then run:
 source ~/.bashrc
 ```
 Now, your terminal will always tell you what Git branch you're on! 🌟
+![image](https://github.com/user-attachments/assets/52e80ee4-c539-4771-b629-5380a6158342)
+
 
 ---
 
