@@ -29,7 +29,7 @@ A **remote** is an online copy of your Git project. You can **push** (send) your
 2. **Push** your local changes so they appear in the remote.
 3. **Pull** changes from the remote if others have updated the code.
 4. Learn how to make **new branches** that also live on the remote.
-5. [FAQ Section](##_V._Frequently_Asked_Questions)
+5. Frequently Asked Questions (FAQ)
 
 ---
 
