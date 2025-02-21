@@ -16,7 +16,7 @@ export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$
 
 ## To make git to show your current branch in `Windows`:
 1. Copy the text below to Notepad.
-2. Name the file with a `.ps1` extension.
+2. Name the file `.\setup-posh-git.ps1` or something similar.
 3. Right-click and `Run As Administrator`.
 ```
 # Show Git Branch Names in PowerShell with Posh-Git
