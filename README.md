@@ -6,7 +6,7 @@ Welcome to the Git101 practice labs! Here’s how the repository is organized:
 
 Start with [01-introduction](labs/01-introduction/README.md) to begin your journey!
 
-## To get git to show your current branch in `Linux`, add this to your ~/.bashrc:
+## To make git to show your current branch in `Linux`, add this to your ~/.bashrc:
 ```bash
 source /usr/share/git-core/contrib/completion/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=true
@@ -14,7 +14,7 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
 ```
 
-## To get git to show your current branch in `Windows`:
+## To make git to show your current branch in `Windows`:
 1. Copy the text below to Notepad.
 2. Name the file with a `.ps1` extension.
 3. Right-click and `Run As Administrator`.
