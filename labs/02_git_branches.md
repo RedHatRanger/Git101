@@ -44,21 +44,9 @@ Think of a Git branch like a **fork** in a road. Instead of everybody walking on
 
 ---
 
-## Step-by-Step Example
-Below is the exact example scenario with code steps, just like before, but we’ll explain it in **kid-friendly language**.
-
-### What is a Git Branch?
-- A ***Git branch*** is a movable pointer to a specific commit, i.e. it allows you develop features and fixes independently from the main codebase (master branch).
-
-
-## Objectives
-
-1. Create and switch between branches
-2. Understand best practices for branch naming
-3. Merge simple changes back into the main branch
-4. Resolve basic merge conflicts
 
 <br><br><br><br>
+# Main Lab
 
 ```bash
 mkdir -p Projects/story-blog
