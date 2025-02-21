@@ -4,7 +4,7 @@ Welcome to the Git101 practice labs! Here’s how the repository is organized:
 
 - **/labs**: Contains all the practice labs. Each lab folder is numbered and named according to its topic.
 
-Start with [01-introduction](labs/01-introduction/README.md) to begin your journey!
+Start with [Lab 1 - Git Setup and Basic Workflows](labs/01_git_setup_and_basic_workflows.md) to begin your journey!
 
 ## To make git to show your current branch in `Linux`, add this to your ~/.bashrc:
 ```bash
