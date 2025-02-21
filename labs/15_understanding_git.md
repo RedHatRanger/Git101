@@ -185,6 +185,7 @@ First commit!
 
 ---
 
+<br><br>
 ## Congratulations🎉!  You Did It!
 
 You just explored Git’s hidden world! 🌎 Now you know how Git stores your work like a superhero with secret codes!
