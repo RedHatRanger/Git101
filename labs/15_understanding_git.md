@@ -21,7 +21,7 @@
 >You can also cat-file the commit hash.
 ![image](https://github.com/user-attachments/assets/92de275b-270b-423e-a8f6-65460f248e3c)
 
-
+<br><br>
 ## Main Lab
 Welcome to the **Understanding Git Lab Series!** Today, we’ll break Git into smaller, hands-on labs to help you explore how Git stores your work and how we can peek inside Git’s secret folders! 🤩
 
@@ -36,7 +36,8 @@ Welcome to the **Understanding Git Lab Series!** Today, we’ll break Git into s
 
 ---
 
-# 🔥 Lab 1: Setting Up Your Git Project
+<br><br>
+# 🕵️‍♂️ Mini-Lab 1: Setting Up Your Git Project
 
 ## 🏗️ Step 1: Create Your Own Git Project
 
@@ -69,7 +70,8 @@ Welcome to the **Understanding Git Lab Series!** Today, we’ll break Git into s
 
 ---
 
-# 🚀 Lab 2: Understanding Git Storage with `git hash-object`
+<br><br>
+# 🕵️‍♂️ Mini-Lab 2: Understanding Git Storage with `git hash-object`
 
 ## 🛠️ Storing a File in Git
 
@@ -117,7 +119,8 @@ By running this command, you manually tell Git:
 
 ---
 
-# 🕵️‍♂️ Lab 3: Deep Dive into `reflog` and `cat-file`
+<br><br>
+# 🕵️‍♂️ Mini-Lab 3: Deep Dive into `reflog` and `cat-file`
 
 ## 🔄 🚗⏳Time Traveling with `git reflog`
 
@@ -158,7 +161,8 @@ git reset --soft abc1234
 
 This keeps your changes but resets Git’s history to that commit!
 
-## 🕵️‍♂️ Lab 4: Investigating Git Objects with `git cat-file`
+<br><br>
+## 🕵️‍♂️ Mini-Lab 4: Investigating Git Objects with `git cat-file`
 
 This command lets you open and inspect Git objects (commits, blobs, and trees).
 
