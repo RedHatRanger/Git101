@@ -69,3 +69,5 @@ Now, every time you open PowerShell, you'll see your Git branch right in the pro
 
 Time to start coding like a Git pro! 🏆
 
+<br><br>
+[Lab 1 - Git Setup and Basic Workflows](labs/01_git_setup_and_basic_workflows.md)
