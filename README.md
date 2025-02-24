@@ -9,7 +9,7 @@ Inside this Git101 repository, you'll find:
 
 ---
 
-<br><br>
+<br><br><br><br>
 ## 🐧 Make Git Show Your Branch in Linux
 ![image](https://github.com/user-attachments/assets/52e80ee4-c539-4771-b629-5380a6158342)
 
