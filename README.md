@@ -7,7 +7,6 @@ Inside this Git101 repository, you'll find:
 - **/labs**: This is where all the practice labs live. Each lab is numbered and focuses on a cool Git skill.
 - Start with [Lab 1 - Git Setup and Basic Workflows](labs/01_git_setup_and_basic_workflows.md) to begin your Git adventure!
 
----
 
 <br><br><br><br>
 ## 🐧 Make Git Show Your Branch in Linux
