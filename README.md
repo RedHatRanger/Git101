@@ -7,9 +7,10 @@ Inside this Git101 repository, you'll find:
 - **/labs**: This is where all the practice labs live. Each lab is numbered and focuses on a cool Git skill.
 - Start with [Lab 1 - Git Setup and Basic Workflows](labs/01_git_setup_and_basic_workflows.md) to begin your Git adventure!
 
-
 <br><br><br><br>
-# 🐧 Make Git Show Your Branch in Linux
+# Other Useful Information
+
+## 🐧 Make Git Show Your Branch in Linux
 ![image](https://github.com/user-attachments/assets/52e80ee4-c539-4771-b629-5380a6158342)
 
 Want to see what Git branch you're on every time you use the terminal? Add this magic spell to your `~/.bashrc`:
