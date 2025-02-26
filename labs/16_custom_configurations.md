@@ -48,5 +48,5 @@ Add patterns like `.DS_Store`, `Thumbs.db`, or `*.swp`.
 Custom configurations streamline repetitive tasks and improve consistency across projects, making Git even more powerful and personalized.
 
 <br><br>
-**Next:** [Lab 11: In-Depth Merge Conflict Resolution](11_in_depth_merge_conflict_resolution.md)
+**Next:** [Lab 17: Git Troubleshooting](17_git_troubleshooting.md)
 
