@@ -58,7 +58,6 @@ Think of it like decorating your room so you can do your homework more comfortab
 
 Git aliases let you **rename** commands to shorter words.
 
-<br><br>
 ### Example
 ```bash
 git config --global alias.co checkout
