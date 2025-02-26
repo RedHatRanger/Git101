@@ -9,7 +9,7 @@ Below is a quick reference of common Git commands to help you manage your reposi
 | `git add <file>`          | Stage a new or changed file for the next commit.                                                     |
 | `git rm <file>`           | Stage removal of a file for the next commit.                                                          |
 | `git reset`               | Unstage files that have been staged for the next commit (or move branch pointer; context needed).     |
-| `git commit -m "<message>`| Commit the staged files to the local repository with a descriptive message.                           |
+| `git commit -m "<message>"`| Commit the staged files to the local repository with a descriptive message.                           |
 | `git push`                | Push changes in the local repository to the remote repository.                                       |
 | `git pull`                | Fetch updates from the remote repository and merge them into the working tree.                       |
 | `git revert <commit-hash>`| Create a new commit that undoes the changes in the referenced commit (using its commit hash).         |
