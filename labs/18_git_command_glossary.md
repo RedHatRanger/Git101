@@ -114,6 +114,7 @@ These commands operate at a lower level, often used by scripts, more advanced us
 
 ---
 
+<br><br>
 ## Using This Full List
 
 1. **Porcelain vs. Plumbing**: We’ve made our best effort to classify them. Porcelain commands are typically used in everyday operations, while plumbing commands are lower-level and more specialized.
