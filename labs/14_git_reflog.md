@@ -1,6 +1,8 @@
+***“You miss 100% of the shots you don’t take.” – Wayne Gretzky (or Michael Scott)***
+<br><br>
+
 # Lab 14: Git Reflog (5th Grader Edition)
 
-**“You miss 100% of the shots you don’t take.”** – Wayne Gretzky (or Michael Scott)
 
 ![image](https://github.com/user-attachments/assets/2a586b67-a6f2-4f80-b397-3c4760fd0b51) 
 ![image](https://github.com/user-attachments/assets/21ec10cf-52a4-4bfc-ad3b-9d6fe1af234f) 
