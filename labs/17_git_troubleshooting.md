@@ -95,7 +95,7 @@ Oops, you wrote your new story pages in the big master notebook. Copy them to a 
 2. Remove the conflict markers (`<<<<<<`, `>>>>>>`).
 3. Stage (`git add .`), then commit.
 
-**Kid-Friendly**: Two kids wrote on the same line. You decide how to combine or pick one.
+Two kids wrote on the same line. You decide how to combine or pick one.
 
 ---
 
@@ -109,7 +109,7 @@ Oops, you wrote your new story pages in the big master notebook. Copy them to a 
 2. Find the commit hash in the reflog.
 3. `git checkout <hash>` or `git cherry-pick <hash>` to recover.
 
-**Kid-Friendly**: Reflog is like your detective journal of all changes.
+Reflog is like your detective journal of all changes.
 
 ---
 
