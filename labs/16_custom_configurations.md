@@ -22,8 +22,9 @@
 
 **Now**, in **Lab 16**, we’ll learn how to **customize** Git so it feels like **your** own. We’ll look at **aliases**, **hooks**, and a **global .gitignore**—all ways to make Git do more of what **you** want.
 
-<br><br>
+
 ---
+<br><br>
 ## Why Custom Configurations?
 Git offers **lots** of ways to make your coding life easier:
 - **Aliases**: Shortcuts for your favorite commands.
@@ -32,15 +33,17 @@ Git offers **lots** of ways to make your coding life easier:
 
 Think of it like decorating your room so you can do your homework more comfortably!
 
-<br><br>
+
 ---
+<br><br>
 ## Objectives
 1. **Define useful Git aliases** (shortcuts).
 2. **Explore Git hooks** (automatic tasks).
 3. **Set up a global .gitignore** (always ignore certain files).
 
-<br><br>
+
 ---
+<br><br>
 ## Setup: Checking Your Current Git Settings
 1. **See your current config**:
    ```bash
@@ -49,8 +52,9 @@ Think of it like decorating your room so you can do your homework more comfortab
    This shows your user name, email, and possibly some aliases or ignore files.
 2. **Decide** if you want to set up aliases/hook examples in your global config or just in this project. For lab practice, you can do them locally.
 
-<br><br>
+
 ---
+<br><br>
 ## I. Git Aliases
 
 Git aliases let you **rename** commands to shorter words.
@@ -71,8 +75,9 @@ It’s like calling your friend "Ben" instead of "Benjamin." Same person, shorte
 
 Now you can use `git co`, `git st`, and `git cm "..."` instead of typing the full commands.
 
-<br><br>
+
 ---
+<br><br>
 ## II. Git Hooks
 
 Hooks are little scripts that Git runs when **certain events happen**:
@@ -91,8 +96,9 @@ Hooks are little scripts that Git runs when **certain events happen**:
 
 It’s like a "to-do note" that always runs before you close your notebook.
 
-<br><br>
+
 ---
+<br><br>
 ## III. Global .gitignore
 
 Sometimes you want Git to **always** ignore certain files (like OS files: `.DS_Store` on Mac, or `Thumbs.db` on Windows) in **all** your projects.
@@ -110,10 +116,11 @@ echo "Thumbs.db" >> ~/.gitignore_global
 
 Now Git will skip these in every repo you work on.
 
-**Kid-Friendly**: It’s like telling your teacher "Ignore all doodles on the back of my pages!" for every assignment.
+It’s like telling your teacher "Ignore all doodles on the back of my pages!" for every assignment.
 
-<br><br>
+
 ---
+<br><br>
 ## Summary
 - **Aliases** save time by letting you type shortcuts.
 - **Hooks** automate tasks (like tests) when you commit.
