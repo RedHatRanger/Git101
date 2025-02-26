@@ -22,8 +22,8 @@
 
 **Now**, in **Lab 16**, we’ll learn how to **customize** Git so it feels like **your** own. We’ll look at **aliases**, **hooks**, and a **global .gitignore**—all ways to make Git do more of what **you** want.
 
----
 <br><br>
+---
 ## Why Custom Configurations?
 Git offers **lots** of ways to make your coding life easier:
 - **Aliases**: Shortcuts for your favorite commands.
