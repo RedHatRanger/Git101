@@ -1,8 +1,7 @@
-***"Success is a journey, not a destination." – Arthur Ashe***
+***"Success is a journey, not a destination." – Arthur Ashe*** 
 <br><br>
 
 # Lab 16: Custom Configurations (5th Grader Edition)
-
 
 ## Quick Review of Previous Labs
 - **Lab 1**: We learned Git basics and made our first commits.
@@ -44,6 +43,7 @@ Think of it like decorating your room so you can do your homework more comfortab
 
 ---
 
+<br><br>
 ## Setup: Checking Your Current Git Settings
 1. **See your current config**:
    ```bash
@@ -54,6 +54,7 @@ Think of it like decorating your room so you can do your homework more comfortab
 
 ---
 
+<br><br>
 ## I. Git Aliases
 
 Git aliases let you **rename** commands to shorter words.
@@ -70,7 +71,7 @@ git config --global alias.cm "commit -m"
 # 'git cm "message"' = 'git commit -m "message"'
 ```
 
-**Kid-Friendly**: It’s like calling your friend "Ben" instead of "Benjamin." Same person, shorter name!
+It’s like calling your friend "Ben" instead of "Benjamin." Same person, shorter name!
 
 Now you can use `git co`, `git st`, and `git cm "..."` instead of typing the full commands.
 
@@ -93,7 +94,7 @@ Hooks are little scripts that Git runs when **certain events happen**:
    ```
 4. Add commands inside that file, like a small test or `echo "Check your code!"`.
 
-**Kid-Friendly**: It’s like a "to-do note" that always runs before you close your notebook.
+It’s like a "to-do note" that always runs before you close your notebook.
 
 ---
 
