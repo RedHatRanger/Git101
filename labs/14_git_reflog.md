@@ -16,18 +16,18 @@
 
 ## Quick Review of Previous Labs
 - **Lab 1**: We set up Git and saved our first files.
-- **Lab 2**: Created branches to work on stories without messing up the main code.
-- **Lab 3**: Merged those branches back in.
-- **Lab 4**: Learned to push to a remote and pull updates.
-- **Lab 5**: Cloned a remote repo to our computer.
-- **Lab 6**: Used Pull Requests for sharing code.
-- **Lab 7**: Fetched and pulled new changes.
-- **Lab 8**: Handled merge conflicts.
-- **Lab 9**: Forked a project.
-- **Lab 10**: Rebased to fix commit history.
-- **Lab 11**: Cherry-picked single commits.
-- **Lab 12**: Reset or reverted commits we didn’t want.
-- **Lab 13**: Stashed changes to save them for later.
+- **Lab 2**: We created branches to work on stories without messing up the main code.
+- **Lab 3**: We merged those branches back in.
+- **Lab 4**: We learned to push to a remote and pull updates.
+- **Lab 5**: We cloned a remote repo to our computer.
+- **Lab 6**: We used Pull Requests for sharing code.
+- **Lab 7**: We fetched and pulled new changes.
+- **Lab 8**: We handled merge conflicts.
+- **Lab 9**: We forked a project.
+- **Lab 10**: We rebased to fix commit history.
+- **Lab 11**: We cherry-picked single commits.
+- **Lab 12**: We reset or reverted commits we didn’t want.
+- **Lab 13**: We stashed changes to save them for later.
 
 **Now**, in **Lab 14**, we’ll explore **git reflog**. Sometimes you make a big mistake—maybe you reset too far back—and you think all is lost. But **reflog** can help you find your way back!
 
