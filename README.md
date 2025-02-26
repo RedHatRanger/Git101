@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/73bb7496-13d5-4d0b-9363-a7e11806d840)
+
 # 🚀 Git101: Let's Get Started with Git! (5th Grader Edition)
 
 Hey there, future Git expert! Welcome to **Git101 Labs**, where you'll learn how to use Git and have fun while doing it! 🎉
