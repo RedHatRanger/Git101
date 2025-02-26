@@ -33,6 +33,7 @@
 
 ---
 
+<br><br>
 ## Why Use Reflog?
 **Reflog** stands for “Reference Log.” It’s like your personal timeline of **all** the moves your `HEAD` has made—even commits you thought you erased. If you do a hard reset, or revert, and want to undo that, the reflog can show you old commit IDs.
 
@@ -40,6 +41,7 @@ Think of **reflog** as a detective’s notebook of **every** move your code made
 
 ---
 
+<br><br>
 ## Setup Procedure
 We’ll create a few commits, then do some resets, so we have “lost” commits that we can recover with reflog.
 
@@ -84,6 +86,7 @@ We’ll create a few commits, then do some resets, so we have “lost” commits
 
 ---
 
+<br><br>
 ## Main Lab
 
 ![image](https://github.com/user-attachments/assets/2a586b67-a6f2-4f80-b397-3c4760fd0b51)
